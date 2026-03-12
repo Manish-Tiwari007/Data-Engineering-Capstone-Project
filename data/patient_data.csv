@@ -1,0 +1,1001 @@
+patient_id,patient_name,age,gender,hospital,disease,admission_date,discharge_date,treatment_cost
+1,Tamara Gibbs,56,F,KMC Hospital,Asthma,2025-12-26,2026-02-17,3266
+2,Cody Campbell,58,F,Grande Hospital,Hypertension,2025-04-07,2025-10-26,4342
+3,Bryan Warren,34,F,Bir Hospital,Heart Disease,2025-04-16,2025-10-06,4955
+4,Alec Vasquez,36,M,KMC Hospital,Cancer,2026-01-18,2026-03-06,296
+5,Felicia Lopez,32,F,KMC Hospital,Cancer,2026-01-16,2026-02-08,4051
+6,Rebecca Dennis,27,F,Bir Hospital,Hypertension,2025-05-19,2025-09-27,4178
+7,Abigail Roberts,60,F,KMC Hospital,Asthma,2025-03-29,2025-05-18,2298
+8,Amy Keller,76,M,Bir Hospital,Heart Disease,2026-01-19,2026-02-24,863
+9,Bradley Barrett,61,M,Bir Hospital,Diabetes,2025-04-11,2026-03-05,254
+10,Scott Kennedy,48,M,Bir Hospital,Heart Disease,2026-01-24,2026-02-12,437
+11,Alicia Hill,63,M,Grande Hospital,Heart Disease,2025-05-01,2025-12-04,2923
+12,Michael Campos,33,M,Norvic Hospital,Asthma,2025-05-26,2025-09-23,1862
+13,Christopher Lee,36,F,Norvic Hospital,Heart Disease,2025-06-12,2025-06-22,4201
+14,Tyler Haynes,69,F,Bir Hospital,Cancer,2026-02-08,2026-02-21,2231
+15,Chris Mcgee,25,M,Norvic Hospital,Hypertension,2025-03-30,2026-02-07,1274
+16,Rachel Mitchell,29,M,Norvic Hospital,Cancer,2025-10-05,2026-03-01,2860
+17,Brianna Watson,50,F,KMC Hospital,Heart Disease,2025-08-29,2025-10-01,4092
+18,Desiree Jones,71,M,Bir Hospital,Asthma,2025-05-20,2025-12-05,4880
+19,Anna Norton,63,M,Grande Hospital,Heart Disease,2025-07-10,2025-10-13,2540
+20,Mark Clark,43,M,KMC Hospital,Hypertension,2025-04-05,2025-12-06,2445
+21,Raymond Gutierrez,55,M,Norvic Hospital,Hypertension,2025-08-30,2026-02-25,2274
+22,Dr. Alan Compton MD,49,F,Bir Hospital,Hypertension,2026-03-04,2026-03-05,2564
+23,William Fernandez,55,F,KMC Hospital,Hypertension,2025-08-02,2026-01-06,4801
+24,Nicholas Mitchell,43,F,Bir Hospital,Diabetes,2025-05-12,2025-08-13,2541
+25,Jonathan Thomas,34,M,KMC Hospital,Hypertension,2025-07-23,2026-01-06,1396
+26,Bradley Barr,60,F,KMC Hospital,Cancer,2025-12-04,2025-12-28,971
+27,Andre Garcia,31,F,Grande Hospital,Heart Disease,2025-09-18,2025-09-29,2444
+28,Mrs. Leslie White PhD,31,F,Bir Hospital,Asthma,2026-03-08,2026-03-09,2607
+29,Reginald Coleman,79,M,KMC Hospital,Heart Disease,2025-10-08,2026-03-05,1854
+30,Bradley Schultz,40,M,KMC Hospital,Cancer,2026-01-24,2026-02-19,3560
+31,Jessica Kelly,55,F,Grande Hospital,Asthma,2026-01-04,2026-02-17,392
+32,Hunter Jackson,28,M,KMC Hospital,Hypertension,2025-09-08,2026-02-08,3037
+33,Tracey Coleman,79,M,Norvic Hospital,Hypertension,2025-04-15,2025-06-28,1202
+34,Jonathan James,27,M,Norvic Hospital,Hypertension,2025-06-29,2025-08-02,4330
+35,Alexis Williams,80,F,Bir Hospital,Heart Disease,2025-10-30,2025-11-23,4821
+36,Heather Robinson,51,M,Grande Hospital,Heart Disease,2025-10-08,2026-02-12,2924
+37,Jason Ramirez,64,F,Grande Hospital,Cancer,2025-06-16,2025-11-29,692
+38,Diane Swanson,25,M,Bir Hospital,Asthma,2025-05-15,2025-10-01,4155
+39,Carol Wagner,32,M,Norvic Hospital,Cancer,2025-10-09,2025-12-22,3905
+40,Joshua Baker,26,M,Norvic Hospital,Diabetes,2025-05-18,2025-11-30,3544
+41,Natasha Frye,55,F,Grande Hospital,Cancer,2025-08-10,2025-09-19,2886
+42,Rebecca Keller DDS,51,F,KMC Hospital,Cancer,2025-12-13,2025-12-16,2171
+43,Jacob Smith,63,F,Grande Hospital,Cancer,2025-06-30,2026-03-06,1354
+44,Jamie Fritz,26,F,Norvic Hospital,Hypertension,2025-03-18,2025-04-22,4950
+45,Stacy Harrell,67,M,Norvic Hospital,Asthma,2025-11-09,2026-01-16,1114
+46,Paul Pearson,69,F,Bir Hospital,Asthma,2025-11-27,2026-01-02,3504
+47,Natalie Skinner,47,F,Bir Hospital,Asthma,2025-08-20,2026-02-06,4369
+48,Brett Green,64,F,Bir Hospital,Asthma,2025-11-07,2026-02-09,4248
+49,Teresa Miranda,60,M,Bir Hospital,Cancer,2025-12-07,2026-03-11,1770
+50,Emily Miranda,71,M,Norvic Hospital,Hypertension,2025-12-22,2026-01-14,3153
+51,Joshua Clark,30,M,Norvic Hospital,Hypertension,2026-03-06,2026-03-09,3333
+52,Christopher Brown,35,F,Grande Hospital,Asthma,2025-12-08,2026-03-12,2586
+53,Edward Nelson,44,M,Norvic Hospital,Hypertension,2025-07-12,2025-11-17,3988
+54,Matthew Steele,50,M,KMC Hospital,Heart Disease,2025-12-06,2026-02-21,4006
+55,Brenda Erickson,74,F,Norvic Hospital,Hypertension,2025-06-11,2025-12-26,3844
+56,Michael Brown,32,M,Bir Hospital,Cancer,2025-10-22,2025-12-13,3552
+57,Jerry Harrison,51,F,Bir Hospital,Asthma,2025-10-09,2025-10-27,2086
+58,Michael Brown,30,M,KMC Hospital,Heart Disease,2025-03-27,2025-04-10,830
+59,Jacob Lewis,23,M,Bir Hospital,Diabetes,2025-03-20,2026-01-21,3598
+60,Caleb Meyer,46,F,Grande Hospital,Hypertension,2025-05-24,2025-10-21,1420
+61,Ann Mendez,71,F,Norvic Hospital,Heart Disease,2025-07-13,2025-08-13,2845
+62,Leslie Sanchez,43,M,KMC Hospital,Diabetes,2025-05-16,2026-03-11,658
+63,Donna Taylor,47,M,Bir Hospital,Cancer,2025-08-25,2026-01-07,263
+64,Melissa Aguilar,74,F,Norvic Hospital,Cancer,2025-10-28,2025-11-10,1469
+65,Austin Mullen,33,F,Grande Hospital,Asthma,2026-02-23,2026-02-24,1755
+66,Annette Adams,39,M,Grande Hospital,Cancer,2025-04-05,2025-11-10,929
+67,Laurie Gallegos,45,F,KMC Hospital,Asthma,2026-03-11,2026-03-12,3633
+68,Rachel Hampton,64,M,Norvic Hospital,Diabetes,2025-08-24,2026-01-01,3768
+69,Jackie Allen,59,M,Norvic Hospital,Hypertension,2025-09-01,2026-01-21,1775
+70,Christie Zimmerman,38,M,Bir Hospital,Heart Disease,2026-02-02,2026-02-10,3837
+71,William Kennedy,60,F,KMC Hospital,Asthma,2025-11-17,2025-11-21,1600
+72,Carol Shepherd,55,M,Norvic Hospital,Diabetes,2025-03-15,2025-08-25,3383
+73,Anna Harris,52,M,Grande Hospital,Cancer,2025-10-22,2025-12-25,4578
+74,Melody Williams,58,M,Grande Hospital,Diabetes,2025-10-13,2025-11-09,1443
+75,Maria Arnold,56,F,KMC Hospital,Hypertension,2025-11-19,2026-01-22,4739
+76,Thomas Hale,52,F,Norvic Hospital,Heart Disease,2025-06-29,2025-12-12,1841
+77,Ronnie Thomas,27,M,KMC Hospital,Asthma,2025-07-24,2025-12-15,4770
+78,Anne Brown,40,F,KMC Hospital,Heart Disease,2026-02-24,2026-03-10,787
+79,Edward Hardy,71,F,Norvic Hospital,Asthma,2025-05-08,2026-02-01,2615
+80,Paul Barron,31,F,Bir Hospital,Asthma,2025-08-28,2025-09-09,2391
+81,Natalie Blair,38,F,Norvic Hospital,Cancer,2025-03-22,2025-04-16,4676
+82,Tiffany Erickson,63,M,KMC Hospital,Heart Disease,2025-10-28,2026-03-09,2176
+83,Tracy Cox,80,F,Norvic Hospital,Hypertension,2025-04-23,2025-11-06,4761
+84,Victor Gonzalez,56,F,Grande Hospital,Diabetes,2025-03-28,2025-04-16,4090
+85,Rachel Gonzalez,64,F,Bir Hospital,Heart Disease,2025-04-29,2025-05-10,1810
+86,Susan Velasquez,54,F,Bir Hospital,Asthma,2026-03-09,2026-03-12,1008
+87,Eric Reyes,65,M,KMC Hospital,Diabetes,2025-07-16,2025-08-27,3041
+88,Bruce Singh,74,F,Norvic Hospital,Diabetes,2025-09-14,2026-01-15,1441
+89,Makayla Wilson,59,F,KMC Hospital,Cancer,2025-10-08,2025-11-07,3378
+90,Courtney Lucero,49,M,Norvic Hospital,Cancer,2025-11-04,2025-12-17,544
+91,Jordan Clayton,70,F,Bir Hospital,Diabetes,2025-07-07,2025-11-17,4038
+92,David Lynch,55,M,Norvic Hospital,Heart Disease,2025-07-01,2026-01-07,2262
+93,Rodney Cruz,71,M,Bir Hospital,Asthma,2025-08-30,2026-02-16,3294
+94,Daniel Webster,65,F,KMC Hospital,Cancer,2025-04-20,2025-09-03,1462
+95,Wendy Ramirez,51,F,Bir Hospital,Heart Disease,2025-07-12,2025-12-05,1991
+96,Adrian Chapman,57,M,KMC Hospital,Cancer,2025-12-22,2026-01-26,3354
+97,Susan Shelton,44,F,Norvic Hospital,Cancer,2025-11-20,2026-02-07,333
+98,Paul Cruz,21,F,KMC Hospital,Diabetes,2025-12-07,2026-03-10,3112
+99,Jose Hudson,77,M,Norvic Hospital,Heart Disease,2025-05-21,2025-06-17,2407
+100,Sean Kirk,79,M,KMC Hospital,Diabetes,2025-03-15,2025-06-24,1465
+101,Johnny Wade,24,M,KMC Hospital,Asthma,2025-05-05,2025-05-14,2357
+102,Jessica Brown,59,F,KMC Hospital,Asthma,2025-06-22,2025-10-01,1505
+103,Shawn Moreno,51,M,Grande Hospital,Cancer,2025-10-14,2026-02-25,3957
+104,Pamela Clements,69,M,Bir Hospital,Hypertension,2025-06-29,2025-09-29,1384
+105,Kristen Patton,28,F,Norvic Hospital,Heart Disease,2025-10-22,2025-11-22,732
+106,Kevin Clark,55,F,Bir Hospital,Hypertension,2025-05-13,2026-03-04,1099
+107,Melissa Anderson,21,F,Grande Hospital,Hypertension,2025-04-06,2026-01-06,1756
+108,Kimberly Spears,80,M,Grande Hospital,Heart Disease,2025-07-18,2025-08-25,3613
+109,Kimberly Martin,58,F,KMC Hospital,Cancer,2025-08-28,2026-03-08,2434
+110,Anita Dean,71,F,Norvic Hospital,Cancer,2025-11-07,2026-02-19,1652
+111,Sherri Wallace,50,M,Bir Hospital,Diabetes,2025-10-05,2026-01-11,2998
+112,Kelly Smith,51,M,Grande Hospital,Diabetes,2025-07-23,2025-11-29,4554
+113,Kristin Lewis,31,M,Bir Hospital,Diabetes,2025-09-20,2026-02-26,4460
+114,Carmen Ferguson,40,M,KMC Hospital,Hypertension,2025-06-06,2025-07-26,3299
+115,Lisa Villanueva,34,M,Grande Hospital,Diabetes,2025-12-16,2026-01-31,536
+116,Keith Parker,45,M,Norvic Hospital,Heart Disease,2025-10-08,2026-02-20,717
+117,John Oliver,53,M,Grande Hospital,Heart Disease,2025-06-09,2025-12-16,2131
+118,Gabrielle Blair,74,M,Bir Hospital,Heart Disease,2025-06-29,2026-01-09,1290
+119,Jeremy Sanchez,31,F,Grande Hospital,Heart Disease,2025-04-13,2026-01-21,1462
+120,Wayne Baker,37,F,Norvic Hospital,Hypertension,2025-11-15,2025-12-16,1172
+121,Rhonda Lee,53,M,Bir Hospital,Heart Disease,2025-06-18,2026-02-05,4246
+122,Jesse Holt,76,M,Grande Hospital,Diabetes,2025-11-28,2025-12-15,3529
+123,Megan Carter,66,F,Bir Hospital,Cancer,2025-12-22,2026-02-18,1126
+124,Cody Black,53,F,Grande Hospital,Hypertension,2025-06-17,2025-11-21,4600
+125,David Floyd,25,F,Bir Hospital,Heart Disease,2025-09-11,2025-11-12,2917
+126,Mark Parker,39,M,Bir Hospital,Cancer,2026-03-04,2026-03-10,2643
+127,Hannah Watts,44,F,KMC Hospital,Hypertension,2025-11-22,2025-11-27,4201
+128,Clifford Greene MD,25,M,Grande Hospital,Asthma,2025-12-30,2026-02-28,4680
+129,Haley Carter,28,M,KMC Hospital,Cancer,2026-03-05,2026-03-10,1471
+130,Eric Morton,73,F,KMC Hospital,Hypertension,2025-06-11,2025-09-30,2275
+131,Mary Howell,49,M,KMC Hospital,Cancer,2026-01-03,2026-03-02,372
+132,Christopher Ramos DVM,46,M,Bir Hospital,Heart Disease,2025-09-09,2025-11-08,3061
+133,Tammy Jackson,54,M,Grande Hospital,Heart Disease,2025-03-22,2025-06-17,1833
+134,Kathy Nichols,71,M,Bir Hospital,Hypertension,2025-06-02,2025-08-01,3228
+135,Christopher Ryan,58,F,KMC Hospital,Asthma,2025-08-04,2025-09-04,1866
+136,Lisa Brown,75,M,Norvic Hospital,Cancer,2025-12-24,2025-12-31,2919
+137,Ronald Smith,48,M,Grande Hospital,Asthma,2026-03-06,2026-03-06,2764
+138,Michael Thomas,72,F,Grande Hospital,Heart Disease,2025-03-25,2025-08-01,1604
+139,Amber Nichols,37,M,Norvic Hospital,Heart Disease,2026-01-04,2026-02-15,1703
+140,Brittany Carrillo,37,F,KMC Hospital,Diabetes,2025-10-02,2025-12-01,852
+141,Joseph Griffith,37,F,Bir Hospital,Hypertension,2025-08-14,2025-12-10,340
+142,Jo Cooper,50,M,KMC Hospital,Hypertension,2025-10-22,2026-02-04,510
+143,John Baird,34,F,Bir Hospital,Heart Disease,2026-01-18,2026-02-13,3268
+144,Casey Cook,64,M,Bir Hospital,Heart Disease,2025-05-08,2025-05-10,3788
+145,Ariel Douglas,32,F,Bir Hospital,Heart Disease,2025-03-22,2026-02-05,4761
+146,Christy Tucker,24,F,Bir Hospital,Heart Disease,2025-04-20,2025-10-20,2230
+147,William Andrade,33,F,KMC Hospital,Diabetes,2025-11-30,2026-03-05,4292
+148,Sara Alexander,36,F,Grande Hospital,Asthma,2025-04-12,2026-02-03,3077
+149,Shawn Gallagher,79,F,KMC Hospital,Asthma,2025-06-16,2025-12-09,3251
+150,Russell Coleman,31,M,Bir Hospital,Asthma,2025-05-31,2026-03-03,4731
+151,David Montgomery,75,F,Bir Hospital,Cancer,2026-01-16,2026-03-07,2556
+152,Brent Johnson,33,F,Norvic Hospital,Asthma,2026-02-08,2026-03-11,3633
+153,Bethany Walters,54,F,Norvic Hospital,Heart Disease,2026-01-10,2026-01-26,1381
+154,Vanessa Pierce,76,M,Norvic Hospital,Heart Disease,2025-12-24,2026-02-24,4214
+155,Justin Watson,23,M,Grande Hospital,Asthma,2025-06-21,2025-08-24,2264
+156,Bryan Miller,22,M,KMC Hospital,Asthma,2025-04-18,2026-01-01,3673
+157,Christina Haas,50,M,Grande Hospital,Heart Disease,2025-08-25,2026-01-29,1641
+158,John Mann,47,M,Bir Hospital,Asthma,2025-03-28,2026-01-08,2864
+159,Brent Horton,30,M,Bir Hospital,Asthma,2025-11-20,2026-01-17,1381
+160,Jared Carter,65,F,Norvic Hospital,Heart Disease,2025-04-24,2025-11-06,960
+161,Kevin Gomez,72,M,Grande Hospital,Asthma,2025-07-10,2025-08-05,243
+162,Roy Carlson,62,F,Bir Hospital,Hypertension,2025-03-23,2025-04-09,1240
+163,Heather Foster,73,F,Norvic Hospital,Cancer,2025-11-02,2025-12-20,4664
+164,Derrick Young,73,M,Bir Hospital,Hypertension,2025-05-05,2025-12-04,4588
+165,Shelley Mejia,31,M,Grande Hospital,Heart Disease,2025-11-21,2026-02-19,2598
+166,Shannon Tanner,41,M,KMC Hospital,Hypertension,2025-09-15,2025-10-02,1404
+167,Latasha Smith,20,M,Norvic Hospital,Heart Disease,2025-08-20,2026-01-30,3373
+168,Samuel Kent,32,F,KMC Hospital,Asthma,2025-09-04,2025-11-29,3881
+169,Catherine Stewart,25,M,Norvic Hospital,Asthma,2025-04-11,2025-07-03,4792
+170,Ashley Hutchinson,34,F,Grande Hospital,Hypertension,2025-03-18,2025-06-17,4143
+171,Dale Erickson,22,M,Bir Hospital,Cancer,2025-04-18,2026-02-08,622
+172,Russell Mason,34,F,KMC Hospital,Hypertension,2025-08-17,2025-09-27,830
+173,Bryan Myers,37,M,Norvic Hospital,Asthma,2025-10-01,2026-01-17,2105
+174,Monique Becker,45,M,KMC Hospital,Heart Disease,2026-01-19,2026-02-20,3495
+175,Mario Warren,49,F,Norvic Hospital,Diabetes,2025-10-15,2026-01-13,3336
+176,Shelly Little,37,F,Bir Hospital,Diabetes,2026-03-08,2026-03-10,4059
+177,Amanda Brown,53,M,Grande Hospital,Heart Disease,2025-12-21,2026-01-06,2357
+178,Nathan Dawson,52,M,Bir Hospital,Cancer,2025-12-20,2026-02-15,1064
+179,Veronica Mendoza,31,M,Bir Hospital,Cancer,2025-12-11,2026-03-10,4300
+180,David Maddox,77,M,Grande Hospital,Heart Disease,2025-06-17,2025-11-05,853
+181,Leah Bender,71,F,Norvic Hospital,Cancer,2026-03-02,2026-03-10,4597
+182,Jeffery Martinez,40,F,KMC Hospital,Diabetes,2025-07-28,2025-08-21,2760
+183,Dale Flowers,20,M,Bir Hospital,Diabetes,2025-08-30,2025-09-11,1897
+184,Aaron Fischer,30,M,Norvic Hospital,Heart Disease,2025-12-25,2026-03-05,2417
+185,Rachael Gillespie,22,F,Norvic Hospital,Cancer,2025-08-19,2026-01-06,3440
+186,Charles Dudley,57,F,Bir Hospital,Heart Disease,2025-11-25,2026-03-09,3505
+187,Eric Chambers,50,F,Bir Hospital,Hypertension,2025-09-07,2026-02-04,3329
+188,Katherine Brooks,25,F,Norvic Hospital,Asthma,2026-01-15,2026-02-21,554
+189,Jason Riley,29,F,Grande Hospital,Hypertension,2025-07-27,2026-03-06,4173
+190,Ryan Fields,73,F,Bir Hospital,Cancer,2025-10-31,2025-12-23,3776
+191,Claudia Benjamin,69,M,Grande Hospital,Asthma,2026-01-02,2026-01-08,1259
+192,Susan Briggs,51,M,Norvic Hospital,Asthma,2025-06-21,2025-10-11,918
+193,Jason Abbott,61,F,Grande Hospital,Asthma,2025-09-08,2025-12-17,2723
+194,Daniel Garrett,72,M,Norvic Hospital,Asthma,2025-07-01,2026-03-06,1296
+195,Ryan Jones,74,M,Bir Hospital,Diabetes,2025-07-06,2025-07-28,1568
+196,William Mendoza,49,M,Grande Hospital,Heart Disease,2025-10-12,2026-01-29,4493
+197,Jordan Carroll,23,M,Grande Hospital,Asthma,2025-11-01,2026-01-08,1222
+198,Cheryl Stone,48,M,KMC Hospital,Hypertension,2025-08-03,2026-02-11,1079
+199,Lauren Wilson,24,F,Norvic Hospital,Heart Disease,2025-10-17,2025-12-02,4975
+200,Norma Petersen,74,F,KMC Hospital,Asthma,2026-03-05,2026-03-10,610
+201,Natalie Wolfe,39,M,KMC Hospital,Diabetes,2026-02-03,2026-02-06,4544
+202,William Garcia,54,F,Norvic Hospital,Asthma,2025-04-06,2025-11-16,2064
+203,Carlos Henson,72,M,Norvic Hospital,Asthma,2025-06-17,2026-02-05,4176
+204,Austin Bradshaw,26,M,Bir Hospital,Cancer,2025-03-13,2025-04-03,650
+205,Sean Andrews,28,M,Grande Hospital,Cancer,2025-04-30,2025-12-09,252
+206,Melissa Campbell,48,F,Norvic Hospital,Cancer,2025-11-14,2026-03-01,4824
+207,Christine Moore,23,M,Grande Hospital,Asthma,2025-07-29,2026-01-17,2501
+208,Richard Rodriguez,70,F,Grande Hospital,Cancer,2025-06-12,2025-07-05,238
+209,Chelsea Warner,50,M,Norvic Hospital,Heart Disease,2025-06-10,2025-08-21,3646
+210,Samantha Anderson,56,F,Norvic Hospital,Asthma,2025-05-21,2026-01-06,4120
+211,Sylvia Solomon,68,M,Grande Hospital,Heart Disease,2026-02-19,2026-02-21,2010
+212,Ronald Zhang,58,F,Bir Hospital,Hypertension,2025-10-19,2026-02-12,2828
+213,Christopher Owens,22,M,Grande Hospital,Diabetes,2025-11-29,2026-02-19,2373
+214,Donna Cummings,75,M,KMC Hospital,Heart Disease,2026-03-08,2026-03-09,4870
+215,Carolyn Williams,32,F,Grande Hospital,Cancer,2025-03-29,2026-01-10,2892
+216,Francis Lee,59,M,Bir Hospital,Diabetes,2025-08-11,2025-12-20,3709
+217,Terry Wilson,42,F,Norvic Hospital,Diabetes,2025-11-25,2025-12-09,812
+218,Jessica Flynn,47,F,Bir Hospital,Diabetes,2025-07-11,2025-09-01,4923
+219,Susan Kim,35,F,Bir Hospital,Hypertension,2025-08-16,2025-11-07,3088
+220,Jamie Torres,30,M,KMC Hospital,Asthma,2025-07-08,2025-08-20,335
+221,Jennifer Rodriguez,21,F,Grande Hospital,Asthma,2025-12-19,2025-12-21,3576
+222,Jamie Cochran,41,F,Grande Hospital,Diabetes,2025-05-24,2025-10-22,4799
+223,Lauren Gross,37,M,Bir Hospital,Heart Disease,2025-05-28,2026-01-01,819
+224,Timothy Wright,29,M,Grande Hospital,Cancer,2025-05-11,2026-01-31,4114
+225,Cathy Chapman,51,M,Grande Hospital,Hypertension,2026-02-22,2026-03-05,3198
+226,Kelly Moore,75,F,Bir Hospital,Hypertension,2025-03-30,2025-04-25,1045
+227,Joseph Taylor,39,F,Bir Hospital,Cancer,2025-04-06,2025-05-20,2743
+228,Alejandra Jones,71,F,Grande Hospital,Asthma,2025-10-15,2025-11-26,3536
+229,Julie Bates,78,F,Grande Hospital,Heart Disease,2025-07-16,2025-11-08,2516
+230,Dr. Jennifer Harris DVM,65,M,Norvic Hospital,Asthma,2026-01-08,2026-02-26,3117
+231,Willie Lawrence,37,M,Grande Hospital,Asthma,2025-11-14,2025-12-06,638
+232,Sara Johnson,64,F,Norvic Hospital,Hypertension,2025-12-29,2026-03-07,2793
+233,Bradley Wallace,78,F,KMC Hospital,Hypertension,2025-08-15,2025-09-27,4041
+234,Jeffrey Underwood,39,M,Bir Hospital,Diabetes,2025-10-27,2025-12-04,3225
+235,Stephanie Sanchez,50,M,KMC Hospital,Cancer,2026-02-18,2026-03-04,4233
+236,James Harris,22,F,Norvic Hospital,Cancer,2025-05-10,2025-10-01,1941
+237,David Fernandez,29,F,Bir Hospital,Hypertension,2025-12-04,2026-02-16,1459
+238,Linda Thompson,46,M,Norvic Hospital,Hypertension,2025-04-20,2025-12-08,1311
+239,Caleb Anderson,52,F,Grande Hospital,Diabetes,2025-10-19,2026-01-30,1064
+240,Jeffrey Garcia,54,M,Norvic Hospital,Heart Disease,2025-10-13,2026-02-23,2803
+241,Suzanne Mcbride,78,M,Norvic Hospital,Cancer,2025-08-24,2026-02-06,948
+242,Ashley Parker,58,F,Grande Hospital,Heart Disease,2025-12-15,2025-12-22,3587
+243,Karen Johnson,56,F,KMC Hospital,Cancer,2025-11-09,2026-01-11,3988
+244,Kelly Zuniga,63,M,Bir Hospital,Hypertension,2025-12-21,2026-02-25,1152
+245,Jessica Williams,47,F,Bir Hospital,Diabetes,2025-11-08,2026-01-08,3933
+246,Rachel Brown,54,M,KMC Hospital,Asthma,2025-11-29,2026-01-21,415
+247,Brandon Daniel,32,M,Bir Hospital,Diabetes,2025-09-04,2025-09-27,285
+248,James Rodriguez,42,M,Bir Hospital,Asthma,2025-11-02,2026-01-17,4496
+249,Matthew Salas,30,F,Norvic Hospital,Hypertension,2025-04-02,2025-09-01,2620
+250,Steve Rodriguez,59,F,Norvic Hospital,Hypertension,2025-06-18,2026-01-14,2787
+251,Jordan Johnson,59,F,Bir Hospital,Cancer,2025-07-21,2026-01-18,667
+252,Alice Riley,73,F,KMC Hospital,Cancer,2025-09-24,2026-03-03,2663
+253,Michael Smith,21,M,Grande Hospital,Cancer,2026-03-04,2026-03-09,1040
+254,Benjamin Baker,55,M,KMC Hospital,Hypertension,2025-04-07,2025-05-06,4880
+255,Christopher Burns,46,M,Norvic Hospital,Hypertension,2025-06-21,2026-02-14,406
+256,Kristen Nielsen,29,F,KMC Hospital,Heart Disease,2025-07-17,2025-12-14,3681
+257,Melissa Brown,50,M,Grande Hospital,Cancer,2025-03-23,2025-05-28,632
+258,Raymond Cervantes,40,M,KMC Hospital,Cancer,2026-01-15,2026-03-09,1367
+259,Brittany Jones,77,M,Grande Hospital,Hypertension,2025-09-29,2025-10-21,4645
+260,Jennifer Wheeler,42,F,KMC Hospital,Cancer,2025-09-04,2026-02-16,2052
+261,Sheryl Bradley,76,M,Norvic Hospital,Cancer,2026-03-01,2026-03-08,4985
+262,Christopher Smith,64,M,Norvic Hospital,Diabetes,2025-04-07,2025-05-04,4339
+263,Toni Anderson,22,F,Norvic Hospital,Asthma,2025-04-14,2025-11-25,2028
+264,Stephanie Nichols,37,F,Grande Hospital,Hypertension,2025-10-27,2025-12-23,947
+265,Richard Sweeney,65,M,Bir Hospital,Asthma,2025-12-03,2026-02-24,3936
+266,Adam Barnes,23,M,KMC Hospital,Heart Disease,2026-02-19,2026-03-05,4052
+267,Jacqueline Mullen,69,F,Bir Hospital,Diabetes,2025-09-17,2025-11-11,1697
+268,Erika Robertson,59,M,Bir Hospital,Hypertension,2025-07-26,2025-10-28,2321
+269,Carrie Griffin,56,M,Norvic Hospital,Asthma,2025-10-11,2026-02-25,1655
+270,Patricia Rodriguez,39,M,Norvic Hospital,Hypertension,2025-10-25,2026-02-12,1476
+271,Joshua Stewart,35,F,KMC Hospital,Asthma,2025-10-06,2025-10-18,264
+272,Rachel Hunt,26,M,Norvic Hospital,Asthma,2025-05-03,2025-05-10,4991
+273,William Schultz,39,F,KMC Hospital,Hypertension,2025-10-09,2026-02-06,3771
+274,Sharon Garcia,60,M,Grande Hospital,Cancer,2025-11-29,2026-01-21,2385
+275,Cynthia Lee,33,M,Grande Hospital,Heart Disease,2025-06-20,2025-11-18,1990
+276,Joshua Moore,31,F,KMC Hospital,Hypertension,2025-11-29,2026-01-07,4726
+277,Gabrielle Green,29,F,KMC Hospital,Cancer,2025-06-20,2025-11-26,1617
+278,Peter Harvey,25,F,Bir Hospital,Hypertension,2025-12-17,2026-02-21,3253
+279,Lisa Phillips,69,F,KMC Hospital,Hypertension,2025-09-11,2026-01-16,357
+280,Zachary Gomez,32,F,Bir Hospital,Hypertension,2025-06-04,2026-01-06,1223
+281,James Garza,51,F,Grande Hospital,Diabetes,2025-03-20,2025-07-03,3667
+282,Valerie Walters,21,M,Norvic Hospital,Cancer,2025-04-29,2025-12-05,3486
+283,Lori Zhang,66,F,Norvic Hospital,Diabetes,2025-09-30,2025-11-12,992
+284,Larry Garcia,79,F,Bir Hospital,Asthma,2025-03-25,2025-10-08,839
+285,Teresa Taylor,47,F,KMC Hospital,Hypertension,2025-11-09,2026-03-01,1857
+286,Christine Jimenez DVM,45,F,KMC Hospital,Diabetes,2025-10-15,2025-10-18,3576
+287,Lori Davis,66,F,Bir Hospital,Diabetes,2025-07-15,2025-10-06,4237
+288,Jennifer Shaffer,40,M,Norvic Hospital,Cancer,2026-01-20,2026-03-03,3692
+289,Amy Pennington,53,M,Bir Hospital,Hypertension,2025-10-10,2025-10-11,4700
+290,Emma Thomas,74,F,KMC Hospital,Diabetes,2025-12-09,2026-01-24,1195
+291,Sherry Cruz,27,F,Norvic Hospital,Asthma,2025-04-20,2025-10-11,3780
+292,Robert Moore,21,M,KMC Hospital,Hypertension,2025-04-10,2025-12-01,4891
+293,Daniel Smith,44,M,Norvic Hospital,Diabetes,2025-08-03,2025-08-28,2582
+294,Nicholas Sanchez,64,M,KMC Hospital,Asthma,2025-07-14,2026-02-07,2595
+295,Joseph Robinson,74,F,Norvic Hospital,Asthma,2025-08-04,2025-11-09,3466
+296,Barry Horton,57,M,Norvic Hospital,Hypertension,2025-10-22,2026-03-09,4149
+297,Tina Ward,52,M,Bir Hospital,Asthma,2025-05-14,2025-07-03,512
+298,Angela Patel,75,F,KMC Hospital,Cancer,2026-03-11,2026-03-12,3493
+299,Austin Clark,68,M,Norvic Hospital,Diabetes,2025-05-31,2025-09-08,1596
+300,Andrew Webster,71,M,Bir Hospital,Cancer,2026-01-14,2026-01-30,1813
+301,James Hunt,55,F,Norvic Hospital,Cancer,2025-11-12,2026-01-24,4611
+302,Jeffrey Smith,36,F,Bir Hospital,Hypertension,2025-10-30,2026-01-06,3821
+303,Jacob Rodriguez,35,M,KMC Hospital,Hypertension,2025-07-30,2025-09-09,3403
+304,Shannon Gonzalez,72,M,Bir Hospital,Hypertension,2025-05-07,2026-02-16,4395
+305,Elizabeth Watson,79,M,Grande Hospital,Diabetes,2025-07-22,2025-11-18,3267
+306,Sabrina Byrd,74,M,Bir Hospital,Hypertension,2025-07-14,2025-10-18,1028
+307,Christopher Martin,67,F,Grande Hospital,Hypertension,2025-11-05,2026-03-09,3923
+308,Lisa Martin,23,F,KMC Hospital,Diabetes,2025-04-09,2025-08-02,4923
+309,Christina Chambers,44,F,KMC Hospital,Hypertension,2025-03-26,2025-04-09,988
+310,Renee Green,75,M,Grande Hospital,Hypertension,2025-04-06,2026-02-01,3211
+311,Mrs. Christine Mendez,61,F,Bir Hospital,Diabetes,2026-01-08,2026-01-22,4094
+312,Devon Jefferson,28,M,Bir Hospital,Diabetes,2025-07-28,2026-03-05,1363
+313,Rebecca Bowman,34,F,Grande Hospital,Diabetes,2025-06-08,2025-12-06,4677
+314,Sabrina Torres,51,M,Bir Hospital,Heart Disease,2025-09-11,2025-12-21,4954
+315,Steven Mitchell,46,M,Grande Hospital,Heart Disease,2025-08-08,2026-01-27,2202
+316,Peter Russell,56,F,Grande Hospital,Hypertension,2025-04-14,2026-01-10,1112
+317,Ryan Villa,31,F,KMC Hospital,Asthma,2025-03-14,2026-01-30,695
+318,Rhonda Hart,45,F,Bir Hospital,Hypertension,2025-04-16,2025-10-24,2487
+319,Bonnie Taylor,78,M,Norvic Hospital,Hypertension,2025-11-22,2025-12-03,3400
+320,Rebecca Williams,51,M,Norvic Hospital,Hypertension,2025-09-08,2026-03-05,429
+321,Debbie Mckinney,51,M,Norvic Hospital,Heart Disease,2026-02-02,2026-03-02,665
+322,Kenneth Ward,75,M,KMC Hospital,Cancer,2025-07-05,2025-07-19,4243
+323,Hector Krueger,61,M,KMC Hospital,Hypertension,2025-04-01,2026-02-15,1114
+324,Michael Young,46,F,KMC Hospital,Diabetes,2025-12-27,2025-12-27,3562
+325,Eugene Smith,79,M,Norvic Hospital,Cancer,2026-03-09,2026-03-10,270
+326,Charles Peterson,74,M,Bir Hospital,Cancer,2025-12-22,2026-01-24,2537
+327,Donald Stephenson,23,F,Grande Hospital,Asthma,2025-07-24,2026-02-26,2951
+328,David Buck,66,M,Norvic Hospital,Diabetes,2025-08-27,2025-11-08,4221
+329,William Moreno,22,M,KMC Hospital,Hypertension,2025-07-17,2025-10-07,1928
+330,John Jones,51,F,Bir Hospital,Hypertension,2026-02-02,2026-02-24,3698
+331,James Morgan,40,F,Norvic Hospital,Diabetes,2026-03-12,2026-03-12,1482
+332,Jesse Nguyen,24,F,Norvic Hospital,Cancer,2026-02-21,2026-03-11,2394
+333,Kim Booker,45,M,Grande Hospital,Hypertension,2025-03-23,2025-08-14,2087
+334,Matthew Scott,20,M,Grande Hospital,Cancer,2025-12-26,2026-03-05,847
+335,Amy Roberts,44,M,Bir Hospital,Hypertension,2025-04-11,2025-07-12,2599
+336,Rodney Moore,46,F,Norvic Hospital,Hypertension,2025-05-10,2025-10-07,3225
+337,Teresa Edwards,32,F,Norvic Hospital,Diabetes,2025-12-21,2026-03-05,1881
+338,Jennifer Walton,73,F,Norvic Hospital,Diabetes,2025-04-22,2026-03-03,4718
+339,Debbie Green,23,F,Grande Hospital,Hypertension,2025-08-24,2025-10-22,1942
+340,Jonathan Walker,37,F,Norvic Hospital,Cancer,2026-01-24,2026-01-27,1747
+341,Leslie Gibson,74,F,Bir Hospital,Heart Disease,2025-11-08,2025-11-18,4009
+342,Leon Middleton,34,F,KMC Hospital,Diabetes,2025-09-02,2025-12-30,2151
+343,Lindsey Jensen,72,F,Norvic Hospital,Heart Disease,2026-02-25,2026-03-02,3816
+344,Xavier Jones,35,F,KMC Hospital,Cancer,2025-09-16,2026-02-16,512
+345,Kevin Rodriguez,35,F,KMC Hospital,Cancer,2025-11-24,2026-02-18,1039
+346,Brian Cruz,43,F,KMC Hospital,Heart Disease,2025-11-10,2026-02-05,1084
+347,Patrick Goodwin,63,F,KMC Hospital,Heart Disease,2025-11-12,2025-11-13,209
+348,Anthony Daugherty,34,F,Norvic Hospital,Asthma,2025-05-27,2025-10-02,2650
+349,Emma Perez,29,M,Norvic Hospital,Heart Disease,2025-11-09,2025-11-25,1002
+350,Clifford Whitaker,80,M,Bir Hospital,Asthma,2026-02-14,2026-02-15,2648
+351,Anita Werner,34,F,KMC Hospital,Cancer,2025-11-20,2025-11-22,4702
+352,Rhonda Smith,68,F,Norvic Hospital,Diabetes,2025-08-31,2025-12-12,2527
+353,David Peterson,38,F,Bir Hospital,Asthma,2025-12-07,2026-01-30,3914
+354,Dr. Allison Eaton,80,M,KMC Hospital,Heart Disease,2025-08-07,2025-11-15,756
+355,Marissa Jimenez,60,F,Grande Hospital,Cancer,2025-12-11,2026-01-06,1414
+356,Antonio Freeman,51,M,Grande Hospital,Asthma,2026-01-09,2026-03-11,3298
+357,Jeremy Allen,65,F,Grande Hospital,Asthma,2025-04-14,2025-06-26,3275
+358,Stephanie Clark,66,F,KMC Hospital,Hypertension,2025-08-31,2026-01-11,504
+359,Christopher Spencer,37,M,Grande Hospital,Hypertension,2025-09-07,2026-02-23,4184
+360,Timothy Bauer,78,F,Norvic Hospital,Asthma,2025-07-12,2025-07-26,1746
+361,Joseph Perez,43,M,Grande Hospital,Hypertension,2025-03-27,2025-12-23,2974
+362,Christopher Spencer,60,M,KMC Hospital,Cancer,2025-05-09,2025-11-30,1785
+363,Charles Phillips,48,F,Grande Hospital,Heart Disease,2025-09-12,2026-03-04,483
+364,Crystal Nelson DDS,26,M,KMC Hospital,Hypertension,2025-04-15,2025-11-01,473
+365,Chad Bright,31,F,KMC Hospital,Cancer,2025-11-19,2026-02-27,2208
+366,Hannah Sanchez,46,M,Norvic Hospital,Cancer,2026-03-02,2026-03-08,926
+367,Jennifer White,64,F,Bir Hospital,Cancer,2025-08-22,2026-02-10,4231
+368,Blake Williams,62,M,Bir Hospital,Diabetes,2026-03-12,2026-03-12,3210
+369,Suzanne Lowery,68,F,KMC Hospital,Hypertension,2025-09-19,2025-10-29,3349
+370,Susan Perry,71,M,Norvic Hospital,Asthma,2025-10-23,2026-02-15,2802
+371,Darren Wilcox,58,F,Bir Hospital,Cancer,2026-01-14,2026-02-02,1077
+372,Tracy Watson,37,F,Norvic Hospital,Cancer,2025-11-05,2026-02-27,1051
+373,Christopher Hunt II,67,F,Bir Hospital,Diabetes,2025-12-07,2026-01-12,3253
+374,Sarah Jordan,73,F,Grande Hospital,Diabetes,2025-03-25,2025-05-21,4649
+375,Garrett Kemp,63,M,Bir Hospital,Diabetes,2025-09-17,2026-01-08,4237
+376,Krista Gonzalez,71,F,Norvic Hospital,Asthma,2025-12-18,2026-01-13,1577
+377,Lisa Keith,48,F,Grande Hospital,Hypertension,2025-11-24,2026-02-08,2051
+378,Timothy Christensen,41,M,Grande Hospital,Asthma,2026-03-10,2026-03-11,2269
+379,Karla Melton MD,32,M,Grande Hospital,Heart Disease,2025-05-03,2025-06-04,4652
+380,Brittney Savage,49,M,Grande Hospital,Asthma,2025-03-27,2025-04-02,2893
+381,Jordan Carroll,80,M,KMC Hospital,Asthma,2025-12-03,2025-12-14,1486
+382,Kenneth Lindsey,44,M,KMC Hospital,Heart Disease,2026-02-08,2026-03-01,2905
+383,Jessica Orozco,32,M,Bir Hospital,Cancer,2025-08-14,2025-10-24,3827
+384,Nicole Cox,58,M,Norvic Hospital,Hypertension,2025-09-11,2026-02-18,905
+385,Alicia Brooks,57,F,Grande Hospital,Hypertension,2025-05-09,2025-08-20,2216
+386,Michael Casey,37,M,Norvic Hospital,Heart Disease,2025-06-17,2026-01-30,1136
+387,Megan Jordan,29,F,Grande Hospital,Diabetes,2025-07-07,2025-11-18,2964
+388,Joshua Johnson,24,M,Bir Hospital,Cancer,2025-07-27,2025-12-12,1164
+389,David Gutierrez,21,M,Norvic Hospital,Hypertension,2026-01-27,2026-02-21,573
+390,Mark Campbell,59,F,Bir Hospital,Diabetes,2025-03-24,2025-06-12,1044
+391,Kyle Maynard,68,F,KMC Hospital,Asthma,2025-08-24,2025-12-31,2035
+392,Kristie Wong,67,F,Bir Hospital,Cancer,2025-06-07,2025-10-07,4008
+393,Crystal Bowman,66,M,Grande Hospital,Heart Disease,2025-07-08,2025-08-19,1399
+394,Joanna Jacobson,76,M,Bir Hospital,Asthma,2025-07-03,2026-02-17,2150
+395,David Davis,76,M,KMC Hospital,Asthma,2025-04-07,2025-04-19,2634
+396,Victor Grant DVM,69,M,Bir Hospital,Cancer,2025-10-13,2025-12-12,2150
+397,Andrew Mullins,22,F,Bir Hospital,Asthma,2025-05-11,2025-09-22,2817
+398,Danielle Haney,68,M,Bir Hospital,Hypertension,2025-09-12,2026-02-17,758
+399,Michael Martinez,31,F,KMC Hospital,Diabetes,2025-06-15,2026-01-28,2445
+400,Kelly Adams,37,M,Bir Hospital,Hypertension,2025-05-15,2025-12-14,240
+401,Emily Black,38,M,Norvic Hospital,Cancer,2025-03-22,2025-04-07,4298
+402,John Caldwell,41,M,Norvic Hospital,Asthma,2026-03-05,2026-03-11,2212
+403,Taylor Charles,29,M,Bir Hospital,Diabetes,2026-01-10,2026-02-09,1365
+404,Ian Harris,33,F,KMC Hospital,Diabetes,2025-09-06,2026-03-03,2972
+405,Jonathan Ramirez,50,F,Bir Hospital,Diabetes,2025-10-10,2025-11-28,1115
+406,Emma Lee,26,F,Norvic Hospital,Asthma,2025-10-29,2026-01-25,1083
+407,Michael Duarte,32,F,Norvic Hospital,Asthma,2026-02-11,2026-03-06,313
+408,Jack Newton,47,M,KMC Hospital,Asthma,2025-10-17,2025-11-26,1183
+409,Jennifer Davis,43,M,Norvic Hospital,Asthma,2026-01-14,2026-01-29,1358
+410,Richard Williams,28,M,Grande Hospital,Asthma,2025-10-07,2025-11-22,284
+411,Elizabeth Dean,34,F,Norvic Hospital,Hypertension,2025-05-12,2025-08-12,219
+412,Austin Evans,61,M,Bir Hospital,Hypertension,2026-03-11,2026-03-12,1884
+413,Kevin Santos,60,M,Bir Hospital,Diabetes,2025-08-08,2025-10-25,3956
+414,Angela Butler,34,F,Bir Hospital,Hypertension,2025-05-16,2025-10-19,740
+415,Nicole Rogers,26,M,KMC Hospital,Asthma,2025-10-28,2026-02-28,1240
+416,Ralph Ortiz,60,M,KMC Hospital,Heart Disease,2025-06-30,2025-09-16,825
+417,Kaylee Hamilton,41,F,Bir Hospital,Diabetes,2025-10-13,2026-02-09,2197
+418,Calvin Garza DDS,52,F,KMC Hospital,Hypertension,2026-01-02,2026-01-23,4489
+419,Nicholas Dean,51,M,Norvic Hospital,Cancer,2025-04-21,2025-12-10,1867
+420,Susan Frost,22,F,Bir Hospital,Diabetes,2025-08-17,2025-08-31,2858
+421,Jasmine Sanchez,52,F,Norvic Hospital,Heart Disease,2025-06-07,2025-07-07,1108
+422,Andrew Hurst,48,F,Norvic Hospital,Heart Disease,2026-01-25,2026-02-03,2213
+423,Stephanie Daniel,29,M,Norvic Hospital,Cancer,2026-02-08,2026-02-25,3798
+424,Melissa Joseph,34,M,KMC Hospital,Diabetes,2025-11-25,2026-03-03,2030
+425,Anthony Bond,43,M,Norvic Hospital,Asthma,2026-02-12,2026-03-10,4931
+426,Dale Thompson,49,M,Bir Hospital,Asthma,2026-03-11,2026-03-11,2066
+427,Kayla Chung,78,M,Norvic Hospital,Heart Disease,2025-10-02,2025-10-25,924
+428,Jason Howe,53,M,KMC Hospital,Hypertension,2026-03-05,2026-03-05,4910
+429,Daniel Jensen,44,M,Grande Hospital,Diabetes,2025-03-15,2026-01-08,497
+430,Dennis Serrano,29,F,KMC Hospital,Heart Disease,2025-08-04,2025-10-28,1591
+431,John Massey,54,M,Norvic Hospital,Hypertension,2025-11-04,2026-03-03,2146
+432,Jason Brewer,46,M,KMC Hospital,Asthma,2025-04-13,2025-06-24,3956
+433,Cory Sanders,46,M,Bir Hospital,Heart Disease,2025-10-02,2025-10-22,1819
+434,Christopher Watkins,63,M,Grande Hospital,Asthma,2026-02-26,2026-03-08,3371
+435,Nicolas Cross,68,M,Bir Hospital,Diabetes,2026-01-22,2026-02-26,4266
+436,Michael Larson,50,F,KMC Hospital,Hypertension,2025-03-27,2025-07-03,1046
+437,Rodney Rollins,38,M,KMC Hospital,Diabetes,2025-11-10,2025-12-05,3335
+438,Teresa Stark,75,M,Norvic Hospital,Heart Disease,2025-07-23,2025-09-23,227
+439,Jessica Daniels,44,F,KMC Hospital,Cancer,2026-03-08,2026-03-11,3763
+440,Samuel Leonard,48,M,Norvic Hospital,Heart Disease,2025-11-13,2025-11-29,4230
+441,James White,33,M,Norvic Hospital,Heart Disease,2026-01-04,2026-02-06,2991
+442,Marissa Wu,68,F,Grande Hospital,Diabetes,2025-07-12,2025-08-11,2954
+443,Christina Lewis,48,M,Norvic Hospital,Cancer,2025-03-22,2025-09-22,3576
+444,Kevin Roberts,57,M,Grande Hospital,Asthma,2025-10-24,2025-12-07,466
+445,Johnny Baker,34,M,KMC Hospital,Heart Disease,2025-12-28,2026-02-06,3642
+446,Corey Johnson,69,M,Bir Hospital,Asthma,2025-12-06,2026-03-05,4469
+447,James Ramos,35,F,Norvic Hospital,Hypertension,2025-07-20,2025-08-07,1148
+448,Sarah Perez,78,M,KMC Hospital,Diabetes,2025-09-05,2025-09-11,1919
+449,Samantha Lara,45,F,Norvic Hospital,Heart Disease,2025-05-08,2025-08-16,3099
+450,Jeffrey Williams,22,M,Norvic Hospital,Cancer,2025-10-15,2026-02-04,3363
+451,Travis Bird,27,M,Bir Hospital,Asthma,2025-08-27,2026-01-10,4343
+452,Miranda Owens,41,F,KMC Hospital,Heart Disease,2026-01-29,2026-03-12,1190
+453,Susan Boyer,43,F,Grande Hospital,Cancer,2026-01-26,2026-02-28,1217
+454,Richard Lynch,42,F,Bir Hospital,Cancer,2025-04-16,2025-08-14,2802
+455,Ashley Abbott,49,M,Grande Hospital,Heart Disease,2025-12-28,2026-02-23,730
+456,Kevin Lewis,69,F,Bir Hospital,Asthma,2025-08-08,2025-09-01,633
+457,Maria Saunders,31,M,Grande Hospital,Asthma,2025-07-02,2025-10-08,4876
+458,Lauren Griffin,41,F,Norvic Hospital,Asthma,2025-04-11,2025-09-25,3556
+459,Aaron Mendez,32,F,Bir Hospital,Hypertension,2025-11-10,2026-02-01,4406
+460,David White,23,F,KMC Hospital,Asthma,2025-08-18,2026-01-05,4576
+461,Robert Jensen,54,M,Bir Hospital,Asthma,2025-05-19,2026-01-04,2550
+462,Stephanie Lee,55,F,Grande Hospital,Heart Disease,2025-10-02,2025-10-25,524
+463,Michael Serrano,24,F,Bir Hospital,Diabetes,2025-06-24,2025-11-19,3483
+464,Rose Joseph,57,F,Norvic Hospital,Cancer,2025-05-23,2026-03-06,2963
+465,Debbie Barrett,43,F,KMC Hospital,Diabetes,2025-11-12,2025-12-02,1915
+466,Tara Morrison,69,F,KMC Hospital,Diabetes,2026-02-07,2026-02-07,2900
+467,Timothy Aguirre,67,M,KMC Hospital,Heart Disease,2025-07-06,2025-07-22,970
+468,Jeremy Hamilton,50,M,Grande Hospital,Asthma,2025-12-07,2025-12-07,2649
+469,Christine Carter,34,F,Grande Hospital,Asthma,2025-08-05,2025-09-13,3512
+470,David Cole,64,F,KMC Hospital,Hypertension,2025-07-08,2025-07-25,2908
+471,Angela Herrera,67,M,Grande Hospital,Hypertension,2025-03-16,2025-08-24,2224
+472,Joyce Holt,41,M,Grande Hospital,Cancer,2025-07-03,2025-08-23,3442
+473,Linda Wood,48,F,KMC Hospital,Diabetes,2026-01-03,2026-03-04,4641
+474,Ashley Jones,64,M,Grande Hospital,Heart Disease,2025-06-01,2025-09-29,2833
+475,Nicolas Lloyd,51,F,Grande Hospital,Heart Disease,2025-10-21,2025-12-15,2808
+476,Bryan Lee,56,M,Bir Hospital,Heart Disease,2025-03-18,2026-02-26,2171
+477,Whitney James,61,M,KMC Hospital,Cancer,2025-08-28,2026-01-03,612
+478,Shelley Perkins,58,F,Norvic Hospital,Heart Disease,2025-05-28,2025-06-09,2940
+479,Christian Mason,53,M,KMC Hospital,Heart Disease,2025-09-25,2026-03-04,4486
+480,Timothy Nielsen,75,F,Bir Hospital,Asthma,2025-10-22,2025-12-26,2669
+481,Ann Waters,44,M,Grande Hospital,Heart Disease,2025-07-09,2025-11-02,1896
+482,Caitlin Carpenter,39,M,KMC Hospital,Cancer,2025-05-30,2025-06-28,228
+483,Jason Brewer,31,M,Grande Hospital,Asthma,2025-12-03,2025-12-21,3830
+484,Adam Cochran,77,F,KMC Hospital,Hypertension,2025-03-12,2025-04-04,1674
+485,William Thomas,51,M,Norvic Hospital,Diabetes,2026-02-13,2026-03-03,3987
+486,Mariah Murphy,35,M,KMC Hospital,Diabetes,2025-06-13,2025-12-24,4890
+487,Donald Sampson,32,F,Bir Hospital,Hypertension,2025-09-11,2025-12-23,3861
+488,Joseph Rojas DDS,38,F,Bir Hospital,Cancer,2025-09-14,2026-01-15,2990
+489,Alexander Shaw,22,F,Bir Hospital,Heart Disease,2025-09-29,2025-11-04,4258
+490,Nicole Berry,77,M,Norvic Hospital,Heart Disease,2026-02-14,2026-03-08,2040
+491,Meghan Jones,77,F,Bir Hospital,Cancer,2026-01-21,2026-02-01,1447
+492,James Austin,40,M,Bir Hospital,Diabetes,2026-02-25,2026-02-28,3319
+493,Mr. Michael Pineda,64,F,Norvic Hospital,Cancer,2026-02-27,2026-02-28,3362
+494,Michael Page,33,F,KMC Hospital,Asthma,2026-02-03,2026-02-15,3723
+495,Andre Smith,72,M,KMC Hospital,Heart Disease,2026-02-13,2026-03-03,4092
+496,Erin Benson,74,F,KMC Hospital,Heart Disease,2025-08-18,2025-12-08,1697
+497,Crystal Meyer,70,F,KMC Hospital,Cancer,2025-04-25,2025-07-17,2619
+498,Jeffrey Bowen,52,F,Grande Hospital,Hypertension,2025-05-31,2025-08-12,3772
+499,Jennifer Brown,27,M,Norvic Hospital,Diabetes,2025-10-08,2025-10-11,958
+500,Charles Ellis,73,F,KMC Hospital,Cancer,2025-08-19,2025-08-28,4608
+501,Kristopher Brewer,41,M,Bir Hospital,Asthma,2025-05-05,2025-12-20,4869
+502,Corey Yoder,64,M,KMC Hospital,Hypertension,2025-04-28,2026-03-04,2114
+503,Cynthia Miller,25,F,KMC Hospital,Asthma,2025-07-29,2025-07-30,1996
+504,Kyle Williams,27,F,Norvic Hospital,Heart Disease,2025-04-26,2025-06-11,1803
+505,Bryan Burke,74,F,Norvic Hospital,Hypertension,2025-06-08,2026-02-25,1718
+506,Tonya Fox,68,M,Grande Hospital,Hypertension,2025-05-06,2026-01-18,3093
+507,Nichole Gutierrez,54,F,Norvic Hospital,Cancer,2025-04-10,2026-02-06,4058
+508,Samantha Hebert,24,M,KMC Hospital,Cancer,2026-02-10,2026-02-16,532
+509,Tiffany Lawson,63,M,Grande Hospital,Heart Disease,2025-11-25,2025-12-17,1833
+510,Renee Stark,26,M,Bir Hospital,Diabetes,2025-10-18,2025-11-08,410
+511,Donna Adams,36,M,Norvic Hospital,Heart Disease,2025-12-10,2026-02-22,823
+512,Ariana Ford,21,M,Bir Hospital,Hypertension,2025-10-17,2025-10-19,580
+513,Jesse Cummings,28,F,Bir Hospital,Cancer,2025-12-23,2026-01-11,4350
+514,Jonathan Snyder,74,M,Grande Hospital,Hypertension,2025-10-25,2025-12-16,707
+515,David Shaw,71,F,Norvic Hospital,Cancer,2025-06-05,2026-02-22,3779
+516,Taylor Fleming,47,F,KMC Hospital,Cancer,2026-03-07,2026-03-07,3527
+517,Taylor Howard,40,F,Norvic Hospital,Heart Disease,2025-09-08,2026-01-29,2167
+518,Richard Nelson,80,M,KMC Hospital,Asthma,2026-03-08,2026-03-08,2670
+519,Mikayla Evans,49,M,Bir Hospital,Cancer,2025-12-13,2025-12-17,2294
+520,Leah Miller,36,F,Bir Hospital,Diabetes,2025-07-09,2025-07-20,1172
+521,Joshua Chavez,26,M,KMC Hospital,Cancer,2025-07-16,2025-08-02,4296
+522,Thomas Green,77,M,Grande Hospital,Cancer,2025-04-05,2025-08-04,4712
+523,Pam Moses,64,M,Grande Hospital,Heart Disease,2025-11-17,2025-12-23,3474
+524,Justin Bass,69,M,Bir Hospital,Diabetes,2025-10-31,2026-02-13,4447
+525,Pamela Smith,76,M,Grande Hospital,Heart Disease,2025-11-25,2025-12-10,1925
+526,Matthew Morris,47,F,Bir Hospital,Heart Disease,2025-10-20,2025-12-24,4178
+527,Sandra Richards,38,M,KMC Hospital,Heart Disease,2025-12-03,2026-02-19,3166
+528,Phillip Bray,74,F,Bir Hospital,Hypertension,2026-03-08,2026-03-11,1408
+529,Abigail Henderson,38,M,Bir Hospital,Asthma,2025-07-01,2025-09-13,4840
+530,Michael Williams,40,M,Norvic Hospital,Diabetes,2025-06-20,2025-12-01,3244
+531,Stephen Grant,70,F,KMC Hospital,Diabetes,2025-06-02,2025-10-16,3732
+532,Victoria Smith,31,F,KMC Hospital,Hypertension,2025-04-11,2025-05-22,2969
+533,John Stafford,33,M,Grande Hospital,Heart Disease,2025-05-26,2025-10-28,387
+534,Maria Smith DVM,52,F,Norvic Hospital,Cancer,2026-02-03,2026-03-01,3559
+535,Savannah Adams,36,M,Norvic Hospital,Hypertension,2026-02-20,2026-03-04,257
+536,Lisa Perez,53,F,Bir Hospital,Hypertension,2025-12-14,2025-12-25,1124
+537,Tony Young,24,M,Grande Hospital,Asthma,2025-06-14,2025-11-28,810
+538,Luke Tate,21,F,KMC Hospital,Diabetes,2026-02-20,2026-02-27,3456
+539,Veronica Jenkins,45,F,Grande Hospital,Hypertension,2026-02-04,2026-02-09,3615
+540,Jacob Nunez,28,F,Grande Hospital,Cancer,2025-10-08,2026-02-19,2487
+541,Stephanie Lee,30,M,KMC Hospital,Diabetes,2025-11-09,2025-11-19,2084
+542,Whitney Willis,20,F,KMC Hospital,Hypertension,2025-12-29,2026-03-05,1513
+543,Kenneth Sanders,22,M,KMC Hospital,Asthma,2026-02-13,2026-03-10,2612
+544,Natalie Robertson,75,F,Bir Hospital,Diabetes,2025-04-08,2025-09-18,1847
+545,Brianna Harris,61,M,Norvic Hospital,Cancer,2025-08-05,2026-02-11,721
+546,Ryan Porter,76,F,Bir Hospital,Heart Disease,2025-06-03,2025-12-23,3074
+547,Christian Wells,29,F,Grande Hospital,Asthma,2025-11-23,2026-01-30,1375
+548,Lindsey Dorsey,73,F,Norvic Hospital,Hypertension,2025-07-15,2025-12-13,4791
+549,Tracey Johnson,40,F,Grande Hospital,Heart Disease,2025-12-16,2026-02-09,3603
+550,Austin Trevino,76,M,Norvic Hospital,Hypertension,2025-03-19,2025-11-10,2260
+551,Jocelyn Miller,58,F,Norvic Hospital,Asthma,2025-10-28,2025-12-02,3141
+552,Christina Gray,21,M,Grande Hospital,Diabetes,2026-01-29,2026-02-07,4495
+553,Keith Andersen,24,F,Grande Hospital,Asthma,2025-11-21,2026-03-11,1377
+554,Jessica Lucero,23,M,Grande Hospital,Asthma,2025-10-04,2026-01-03,3165
+555,Michelle Williams,54,M,KMC Hospital,Diabetes,2025-07-06,2026-02-13,2681
+556,David Morgan,38,M,KMC Hospital,Hypertension,2026-02-22,2026-03-11,4594
+557,Debra Gregory,22,M,Grande Hospital,Hypertension,2026-01-12,2026-03-06,2783
+558,Jason Nunez,59,F,Bir Hospital,Diabetes,2025-04-01,2025-12-21,2472
+559,Ruth Whitaker,50,M,Norvic Hospital,Heart Disease,2026-02-18,2026-02-21,4549
+560,Robin Doyle,70,F,KMC Hospital,Asthma,2025-06-10,2025-08-04,3676
+561,Stephen Gonzales,50,F,KMC Hospital,Hypertension,2025-09-25,2025-11-08,265
+562,Matthew Porter,55,F,KMC Hospital,Asthma,2025-06-02,2026-02-08,3974
+563,Tracy Davis,29,F,Bir Hospital,Asthma,2025-03-24,2025-06-22,4397
+564,Mrs. Tiffany Shepard,26,F,KMC Hospital,Cancer,2026-01-31,2026-02-22,1476
+565,Jeffrey White,67,F,Norvic Hospital,Hypertension,2025-08-21,2025-10-25,4939
+566,Ryan Gray,31,M,Bir Hospital,Cancer,2025-10-06,2026-02-01,1720
+567,Jeremy Woods,79,M,Grande Hospital,Heart Disease,2025-05-05,2025-10-26,4556
+568,Debra Gray,37,M,Bir Hospital,Heart Disease,2025-10-20,2026-02-13,2920
+569,James Ramirez,43,F,Grande Hospital,Cancer,2026-01-17,2026-03-09,3535
+570,Logan Clark,25,F,Norvic Hospital,Diabetes,2025-06-12,2025-06-19,3299
+571,Jessica Murphy,79,M,Norvic Hospital,Hypertension,2025-04-25,2025-07-09,3668
+572,Amanda Roberson,22,F,Norvic Hospital,Heart Disease,2025-09-05,2025-12-19,4751
+573,John Smith,22,M,Bir Hospital,Hypertension,2026-02-04,2026-03-03,3775
+574,Austin Floyd,73,M,Bir Hospital,Hypertension,2025-08-17,2026-02-15,3685
+575,Lisa Griffith,36,M,Grande Hospital,Heart Disease,2025-07-27,2026-02-14,1370
+576,Robert Smith,47,M,Grande Hospital,Cancer,2025-10-06,2025-10-20,4837
+577,Tanya Smith,63,M,Bir Hospital,Heart Disease,2025-12-01,2025-12-07,3036
+578,Isabella Lewis,32,M,KMC Hospital,Asthma,2025-12-11,2026-02-16,3840
+579,Kelly Rodriguez,48,F,Grande Hospital,Diabetes,2025-09-16,2025-12-20,3732
+580,Michael Cole,80,F,Grande Hospital,Asthma,2025-05-17,2025-09-15,4557
+581,Jerry Ward,51,M,Grande Hospital,Heart Disease,2025-12-07,2026-01-02,1463
+582,Lori Chavez,48,M,Grande Hospital,Hypertension,2025-12-10,2026-01-19,992
+583,David Gould,58,F,Bir Hospital,Hypertension,2025-07-30,2026-01-18,2265
+584,Heather Wilkins,75,M,Grande Hospital,Cancer,2025-07-02,2025-07-14,3551
+585,Spencer Adams,27,F,Grande Hospital,Cancer,2025-04-05,2025-06-26,1019
+586,John Valdez,37,F,Bir Hospital,Diabetes,2025-04-23,2025-08-15,686
+587,Anna Mills,79,F,Norvic Hospital,Cancer,2025-11-05,2026-02-26,1029
+588,Mr. Jeffrey Jenkins,26,F,Bir Hospital,Diabetes,2025-10-14,2026-01-24,1536
+589,Emily Gonzalez,73,M,Norvic Hospital,Asthma,2025-03-29,2025-12-25,4698
+590,Stephen Young,59,F,Bir Hospital,Asthma,2025-04-29,2025-12-24,4102
+591,Joanna Allen,24,F,Bir Hospital,Asthma,2025-11-10,2025-11-27,951
+592,Erica Bell,24,M,Norvic Hospital,Cancer,2026-02-14,2026-03-02,4937
+593,Katherine Hernandez,37,F,Norvic Hospital,Cancer,2025-09-06,2025-11-01,1000
+594,Adam Green,75,F,Norvic Hospital,Cancer,2025-10-23,2026-01-04,4647
+595,Michelle Love,65,F,Bir Hospital,Hypertension,2025-07-27,2025-11-04,1462
+596,James Hodge,34,F,Norvic Hospital,Asthma,2025-07-16,2025-10-10,2809
+597,Jason Lucas,51,F,Bir Hospital,Asthma,2025-05-12,2025-09-20,3266
+598,Samuel Williams,32,M,KMC Hospital,Hypertension,2025-12-03,2026-03-03,2409
+599,Amanda Bowman,53,F,Bir Hospital,Heart Disease,2026-01-01,2026-02-20,3531
+600,Neil Smith,33,F,Grande Hospital,Diabetes,2026-01-17,2026-02-15,2092
+601,Luis Wright,60,M,Grande Hospital,Heart Disease,2025-03-23,2025-07-24,3981
+602,Kevin Sullivan,49,F,Grande Hospital,Asthma,2025-08-04,2026-02-06,4974
+603,Todd Davidson,31,F,Grande Hospital,Heart Disease,2025-06-23,2025-08-03,793
+604,Katelyn Washington,24,F,Grande Hospital,Cancer,2025-07-30,2026-02-22,2078
+605,Allison Williams,64,F,KMC Hospital,Cancer,2025-08-31,2026-02-28,2708
+606,Claudia Walls,69,M,Bir Hospital,Cancer,2026-01-09,2026-01-31,842
+607,Jasmine Chang,55,M,KMC Hospital,Diabetes,2025-07-07,2026-01-23,2290
+608,Robert Wright,42,M,Norvic Hospital,Hypertension,2025-10-12,2026-02-04,4944
+609,Candice Lewis,24,F,Norvic Hospital,Cancer,2026-03-09,2026-03-11,4991
+610,Christopher Andrews,43,M,Bir Hospital,Cancer,2025-05-15,2026-03-09,2002
+611,Adrienne Gonzalez,27,F,Norvic Hospital,Asthma,2025-07-22,2025-11-23,2880
+612,Cynthia Page,38,F,Bir Hospital,Hypertension,2025-11-01,2025-12-18,4798
+613,Thomas Mann,62,F,Grande Hospital,Asthma,2025-10-08,2026-02-06,3600
+614,April Thompson,37,M,Grande Hospital,Hypertension,2025-07-27,2025-10-16,4469
+615,William Wells,68,F,Grande Hospital,Cancer,2025-05-30,2025-06-29,3595
+616,Lori Mcpherson,29,F,KMC Hospital,Asthma,2025-03-23,2025-05-13,385
+617,Gina Williams,21,M,KMC Hospital,Hypertension,2025-10-14,2025-12-03,3719
+618,Monica Adams,67,M,Bir Hospital,Hypertension,2025-04-10,2025-12-25,910
+619,Frank Snyder,22,M,Grande Hospital,Hypertension,2025-10-06,2025-11-28,4780
+620,Sarah Patel,55,F,KMC Hospital,Hypertension,2025-06-15,2025-11-20,2034
+621,Dr. Regina Anderson,50,M,Bir Hospital,Diabetes,2025-05-26,2025-08-09,4268
+622,Joe Lozano,31,F,KMC Hospital,Cancer,2025-07-07,2025-07-17,2003
+623,Evan Mueller,78,M,Norvic Hospital,Diabetes,2025-12-05,2026-02-10,1002
+624,Tracy Martin,64,F,Grande Hospital,Heart Disease,2025-04-04,2025-08-07,3732
+625,Sandra Flynn,33,M,Norvic Hospital,Hypertension,2025-10-18,2026-01-24,3479
+626,Donald Noble,53,M,Norvic Hospital,Hypertension,2025-05-02,2025-11-01,3768
+627,Laurie Thornton,64,F,KMC Hospital,Diabetes,2025-03-25,2025-04-08,3787
+628,Deborah Wilson,58,F,Bir Hospital,Hypertension,2025-12-07,2026-01-19,4584
+629,Jared Mccarthy Jr.,44,M,Grande Hospital,Cancer,2025-04-10,2025-10-31,2031
+630,Samantha Ibarra,69,F,Bir Hospital,Heart Disease,2025-05-04,2025-05-05,585
+631,Martha Hill,55,F,Norvic Hospital,Heart Disease,2025-07-30,2025-10-28,4304
+632,Kelly Robertson,20,M,Norvic Hospital,Asthma,2025-10-20,2025-10-26,3178
+633,Nathaniel Collins,67,M,Grande Hospital,Hypertension,2025-04-11,2026-02-08,923
+634,Dorothy Paul,47,F,Bir Hospital,Cancer,2025-11-17,2026-01-03,4642
+635,Jill Dorsey,63,M,Norvic Hospital,Cancer,2025-10-02,2026-02-07,2882
+636,Kenneth Morales,34,M,KMC Hospital,Hypertension,2026-03-10,2026-03-10,1393
+637,Cynthia Morales,48,M,Bir Hospital,Asthma,2025-07-27,2025-10-26,1427
+638,Jared May MD,23,M,KMC Hospital,Cancer,2025-05-01,2025-11-15,4217
+639,Jeffrey Richardson,61,M,Grande Hospital,Heart Disease,2025-06-15,2025-12-08,2711
+640,Aaron Walker,80,F,Grande Hospital,Heart Disease,2025-12-16,2026-02-15,641
+641,Brian Kane,40,F,Norvic Hospital,Cancer,2026-02-06,2026-03-05,4194
+642,Jennifer Alvarado,59,F,Grande Hospital,Asthma,2025-12-26,2026-01-13,1889
+643,John Church,28,M,KMC Hospital,Hypertension,2025-08-02,2025-08-10,4178
+644,Jasmine Clark,31,F,Bir Hospital,Cancer,2025-09-02,2026-01-07,3347
+645,Jason Johnson,72,M,Norvic Hospital,Cancer,2025-04-18,2025-06-23,4786
+646,Deborah Barnes,48,M,Norvic Hospital,Diabetes,2026-01-07,2026-03-09,4032
+647,Christopher Brady,37,M,Bir Hospital,Heart Disease,2026-01-11,2026-02-12,3014
+648,Steven Reilly,59,M,KMC Hospital,Cancer,2025-04-10,2025-07-22,2188
+649,Vincent Rojas,62,M,Grande Hospital,Cancer,2025-04-28,2025-10-29,1834
+650,Jessica Ruiz,35,M,Grande Hospital,Diabetes,2025-03-22,2025-10-07,929
+651,Erik Jackson,42,M,Grande Hospital,Asthma,2025-10-07,2026-01-26,1116
+652,Gabriel Smith,80,F,KMC Hospital,Cancer,2025-08-26,2026-03-12,2487
+653,Albert Jones,59,M,Norvic Hospital,Heart Disease,2026-01-25,2026-02-13,251
+654,Julie Bowman,58,M,Grande Hospital,Heart Disease,2025-06-14,2025-10-08,2240
+655,Thomas Murphy,50,F,Bir Hospital,Heart Disease,2025-05-22,2025-10-06,751
+656,Robert Murphy,44,M,Grande Hospital,Hypertension,2025-12-15,2026-01-31,2520
+657,Michael Kelley,64,F,KMC Hospital,Diabetes,2025-05-15,2025-08-31,2278
+658,Larry Day,66,M,Norvic Hospital,Cancer,2025-07-06,2026-01-11,1183
+659,Hector Rodriguez,41,F,Norvic Hospital,Cancer,2026-01-19,2026-02-26,3763
+660,James Wright,64,M,Norvic Hospital,Heart Disease,2025-04-07,2026-01-19,3571
+661,Edward Lewis,21,F,Bir Hospital,Hypertension,2025-08-28,2026-01-09,4110
+662,Jackie Fry,63,M,KMC Hospital,Asthma,2025-10-13,2026-02-15,4818
+663,Jason Lam II,79,F,Grande Hospital,Asthma,2025-11-22,2026-01-13,3592
+664,Anne Gilmore,75,M,Norvic Hospital,Asthma,2025-11-08,2025-12-19,514
+665,Austin Hall,75,F,Norvic Hospital,Heart Disease,2025-05-15,2026-02-25,3303
+666,Anthony Booker,40,M,Bir Hospital,Cancer,2025-08-19,2025-11-16,3784
+667,Pamela Leonard,46,F,Bir Hospital,Heart Disease,2025-11-12,2025-12-22,1825
+668,Ronald Foster,36,F,Bir Hospital,Asthma,2025-12-18,2026-01-28,2740
+669,Phillip Price,55,F,Norvic Hospital,Heart Disease,2025-05-31,2025-09-27,2038
+670,Donald Deleon,78,F,KMC Hospital,Hypertension,2025-12-22,2025-12-29,2505
+671,Derrick Schwartz,44,M,Norvic Hospital,Hypertension,2025-03-16,2026-01-08,319
+672,Scott Lam,37,F,Grande Hospital,Hypertension,2026-03-05,2026-03-07,2409
+673,Robert Garcia,40,M,Norvic Hospital,Hypertension,2025-07-20,2026-03-07,4207
+674,Jessica Castillo,21,F,Grande Hospital,Cancer,2025-03-21,2025-12-22,3512
+675,Matthew Castillo,52,F,Bir Hospital,Cancer,2025-11-04,2026-01-08,1106
+676,Adam Palmer,39,M,KMC Hospital,Cancer,2025-03-28,2025-08-04,4326
+677,Sarah Mejia,38,F,Bir Hospital,Cancer,2026-01-22,2026-03-08,2372
+678,Timothy Roberts,68,M,KMC Hospital,Hypertension,2025-11-12,2026-01-09,4577
+679,Amanda Roberts,32,F,KMC Hospital,Asthma,2025-03-24,2026-01-31,2829
+680,Richard Estes,74,M,Bir Hospital,Heart Disease,2025-11-26,2025-12-21,2704
+681,Mikayla Brown,66,M,Bir Hospital,Cancer,2025-05-28,2025-11-02,1408
+682,Michael Jordan,64,M,Norvic Hospital,Asthma,2025-12-11,2025-12-21,691
+683,Craig Faulkner,62,M,Bir Hospital,Cancer,2025-06-07,2025-07-03,2427
+684,Ashley Conley,24,M,Bir Hospital,Diabetes,2025-08-01,2025-09-03,2294
+685,Lisa Richards,44,M,KMC Hospital,Asthma,2025-07-17,2025-09-16,4793
+686,Austin Benson,57,F,Bir Hospital,Diabetes,2026-01-15,2026-02-22,2347
+687,Katherine Mcneil,70,F,Norvic Hospital,Asthma,2025-10-06,2025-10-31,1647
+688,Charles Crawford,28,F,Grande Hospital,Asthma,2025-07-06,2025-07-11,1828
+689,Andrea Wood,36,M,KMC Hospital,Asthma,2025-12-21,2026-03-11,1325
+690,Heather Lane,46,M,Grande Hospital,Heart Disease,2025-09-23,2026-02-01,1026
+691,Jennifer Evans,46,F,Norvic Hospital,Heart Disease,2026-02-15,2026-02-18,941
+692,Janice Allen,31,M,Norvic Hospital,Diabetes,2025-03-12,2025-12-20,1796
+693,Kimberly Welch,65,M,KMC Hospital,Diabetes,2025-04-25,2025-09-14,2955
+694,Richard Schmidt,41,M,Norvic Hospital,Hypertension,2026-03-10,2026-03-10,1212
+695,Julie Stevens,73,M,Grande Hospital,Heart Disease,2025-07-24,2026-02-14,2770
+696,Joseph Reyes,53,M,Norvic Hospital,Heart Disease,2025-11-15,2025-12-01,3164
+697,James Moore,30,F,Grande Hospital,Heart Disease,2025-07-14,2025-12-04,484
+698,Edward Watson,52,M,Grande Hospital,Diabetes,2026-03-04,2026-03-09,2297
+699,Miguel Hernandez,32,F,KMC Hospital,Diabetes,2025-05-26,2025-11-27,3317
+700,Andrew Andersen,34,M,KMC Hospital,Diabetes,2025-06-24,2025-08-23,3244
+701,Diana Brown,44,F,Bir Hospital,Cancer,2025-09-30,2025-11-10,4581
+702,Justin Lee,45,F,Norvic Hospital,Hypertension,2025-03-22,2025-11-14,4029
+703,Maureen Thompson,35,F,Norvic Hospital,Asthma,2025-08-29,2026-02-13,4802
+704,Jonathan Carson,55,F,Norvic Hospital,Hypertension,2025-08-31,2026-01-28,3294
+705,Brandon Ford,74,M,KMC Hospital,Hypertension,2025-09-08,2026-02-06,4363
+706,Brenda Hatfield,20,M,KMC Hospital,Heart Disease,2026-01-31,2026-02-10,1974
+707,Nichole Nguyen,74,F,Grande Hospital,Heart Disease,2026-03-08,2026-03-08,583
+708,Timothy Elliott,70,F,Norvic Hospital,Asthma,2025-11-28,2026-02-08,3208
+709,Hannah Robertson,25,F,Norvic Hospital,Hypertension,2025-04-29,2025-12-25,4375
+710,Robert Palmer,42,M,Norvic Hospital,Hypertension,2025-12-11,2026-01-11,4264
+711,Edward Riley,59,M,Bir Hospital,Asthma,2025-07-03,2026-02-23,3518
+712,Kyle Henry,80,M,Grande Hospital,Heart Disease,2025-10-11,2026-02-18,4510
+713,Christopher Nelson,61,M,Bir Hospital,Diabetes,2025-06-04,2025-09-05,2080
+714,Bryan Rivera,75,F,KMC Hospital,Hypertension,2025-06-09,2025-07-05,2884
+715,Jennifer Walters,67,M,KMC Hospital,Diabetes,2025-11-05,2026-02-02,2727
+716,Patty Garcia,56,F,Norvic Hospital,Diabetes,2025-09-13,2026-01-13,3552
+717,Maria Joyce,22,M,Norvic Hospital,Heart Disease,2025-04-28,2025-07-20,4623
+718,Jennifer Mueller,54,M,Bir Hospital,Diabetes,2025-04-24,2025-09-15,4723
+719,Kevin Jenkins,76,F,Grande Hospital,Diabetes,2025-07-09,2025-09-20,2589
+720,David Hill,36,M,Bir Hospital,Heart Disease,2026-03-05,2026-03-10,1729
+721,Madison Figueroa,53,M,Bir Hospital,Diabetes,2025-12-11,2026-01-09,459
+722,Cesar Perry,40,F,KMC Hospital,Heart Disease,2026-02-05,2026-03-11,1979
+723,Katie Phillips,29,F,KMC Hospital,Hypertension,2025-03-26,2025-07-19,4839
+724,Lauren Barnes,26,F,Bir Hospital,Cancer,2025-05-31,2026-01-16,1541
+725,Maria Kim,63,M,KMC Hospital,Heart Disease,2025-10-12,2025-11-25,3944
+726,Tyler Greer,36,F,Grande Hospital,Hypertension,2026-03-09,2026-03-10,3439
+727,Julia Sanchez,54,M,Norvic Hospital,Cancer,2025-08-11,2025-10-17,3723
+728,Amy Jones,31,F,Grande Hospital,Heart Disease,2025-04-05,2025-10-22,3125
+729,Sarah Baker,53,F,KMC Hospital,Heart Disease,2025-11-24,2026-02-23,1590
+730,Kristin Cantu,76,F,Grande Hospital,Hypertension,2025-12-22,2026-03-07,3262
+731,Brian Key,25,F,Bir Hospital,Heart Disease,2025-05-23,2025-11-29,1407
+732,Emily Conner,36,M,Norvic Hospital,Diabetes,2025-12-15,2026-01-22,1593
+733,Mrs. Ashley Price DDS,68,F,Grande Hospital,Diabetes,2025-05-22,2026-01-02,2482
+734,William Bryan,73,M,KMC Hospital,Diabetes,2025-03-21,2025-10-16,4596
+735,Jennifer Hunter,27,M,Bir Hospital,Hypertension,2025-11-26,2026-02-03,1913
+736,Samantha Taylor,53,M,Bir Hospital,Cancer,2026-03-08,2026-03-10,2992
+737,David Mcgrath,65,F,KMC Hospital,Heart Disease,2025-10-13,2026-01-02,1438
+738,Elizabeth Kemp,28,M,Norvic Hospital,Hypertension,2025-12-15,2026-02-04,4059
+739,Patricia Goodman,42,F,Grande Hospital,Asthma,2025-10-12,2025-11-27,1382
+740,Andrea Hill,60,F,Grande Hospital,Diabetes,2025-07-22,2026-01-25,577
+741,Joshua Robinson,64,M,KMC Hospital,Diabetes,2025-09-06,2026-01-28,3074
+742,Pamela Roberson,37,M,Norvic Hospital,Heart Disease,2025-11-18,2025-11-27,1668
+743,Robert Turner,76,F,Bir Hospital,Hypertension,2025-07-13,2025-08-17,735
+744,Bryan Johnson,79,M,Bir Hospital,Heart Disease,2025-08-29,2025-12-12,2381
+745,Jerry Garcia,73,F,Norvic Hospital,Cancer,2025-11-14,2026-01-03,451
+746,Jennifer Jennings,63,M,KMC Hospital,Cancer,2025-04-15,2026-02-03,3522
+747,Susan Murray,57,M,Bir Hospital,Cancer,2025-10-02,2025-11-19,3554
+748,Christopher Martinez,52,M,Norvic Hospital,Diabetes,2025-11-22,2026-01-27,4844
+749,Rhonda Lane,61,F,Norvic Hospital,Cancer,2025-10-15,2025-12-29,1019
+750,Richard Ross,59,F,Grande Hospital,Asthma,2025-08-18,2025-09-06,4059
+751,Shannon Washington,36,F,Grande Hospital,Cancer,2025-08-22,2026-01-21,4709
+752,Tom Kelly,56,F,Grande Hospital,Cancer,2026-01-18,2026-02-07,1745
+753,David Graves,55,F,Bir Hospital,Cancer,2025-06-19,2026-01-09,3785
+754,Steven Flores,27,M,Norvic Hospital,Cancer,2025-06-04,2025-07-24,3289
+755,Robert Lewis,52,F,Grande Hospital,Cancer,2026-03-01,2026-03-11,3565
+756,William Fernandez,71,M,Bir Hospital,Diabetes,2025-03-24,2025-06-13,3530
+757,Shawn Reeves,51,M,Norvic Hospital,Cancer,2026-02-17,2026-03-12,1926
+758,Joshua English,62,F,Bir Hospital,Heart Disease,2025-04-08,2025-07-23,3123
+759,Lee Peterson,61,M,Bir Hospital,Heart Disease,2026-02-06,2026-02-24,746
+760,Michael Barton,55,M,KMC Hospital,Heart Disease,2025-07-10,2026-02-10,3776
+761,Thomas Coleman,35,F,KMC Hospital,Cancer,2026-01-09,2026-01-20,457
+762,Paul Mccarty,51,M,Bir Hospital,Cancer,2025-06-30,2025-09-14,1673
+763,Casey Huber,32,M,Bir Hospital,Hypertension,2025-04-20,2026-02-25,2163
+764,Joseph Valentine,46,F,Bir Hospital,Heart Disease,2025-10-23,2026-03-03,2512
+765,Kelly Bowman,62,F,KMC Hospital,Diabetes,2025-06-08,2025-10-31,2368
+766,Rachel Brown,66,M,Bir Hospital,Heart Disease,2025-12-03,2026-02-18,1193
+767,Gary Ross,80,F,Grande Hospital,Diabetes,2025-11-29,2025-12-21,3350
+768,Matthew Allen,30,F,Bir Hospital,Asthma,2026-01-14,2026-01-27,1194
+769,Katherine Waters,25,M,Grande Hospital,Diabetes,2025-12-13,2026-02-09,3989
+770,James Garcia,28,F,Grande Hospital,Diabetes,2025-12-16,2026-02-10,1742
+771,Ryan Andersen,24,M,KMC Hospital,Heart Disease,2025-11-20,2026-01-05,2872
+772,Ashley Scott,43,F,Bir Hospital,Hypertension,2025-11-05,2026-02-03,1828
+773,Michael Compton,65,F,Norvic Hospital,Hypertension,2025-06-29,2026-02-01,481
+774,Katherine Woods,28,M,Norvic Hospital,Asthma,2025-05-18,2025-09-15,1892
+775,Jared Andrews,48,F,Grande Hospital,Diabetes,2025-07-15,2026-01-26,2452
+776,Jessica Keller,42,M,Grande Hospital,Hypertension,2025-06-26,2025-08-28,2016
+777,Andrew Anthony,72,M,Grande Hospital,Hypertension,2026-02-28,2026-03-09,4083
+778,Jessica Mitchell,22,F,Bir Hospital,Heart Disease,2026-03-11,2026-03-12,1330
+779,Jesus Morgan,38,F,KMC Hospital,Hypertension,2026-02-02,2026-03-04,1187
+780,John Lawrence,44,M,Grande Hospital,Heart Disease,2025-12-30,2026-02-06,1964
+781,Kaylee Gonzalez,67,M,Norvic Hospital,Hypertension,2025-04-16,2025-09-24,4853
+782,Robert Ford,79,F,Norvic Hospital,Diabetes,2025-07-21,2025-08-06,3870
+783,Michael Rodriguez,62,F,Norvic Hospital,Hypertension,2026-01-23,2026-02-03,1338
+784,Tyrone Baker,30,M,Norvic Hospital,Cancer,2025-11-29,2025-12-03,1734
+785,Max Anderson,75,M,KMC Hospital,Heart Disease,2025-07-13,2026-02-06,1659
+786,Sergio Rodgers,59,M,KMC Hospital,Diabetes,2026-01-19,2026-02-25,4541
+787,Katherine Miller,78,F,KMC Hospital,Heart Disease,2025-04-13,2026-03-11,4742
+788,Todd Brown,49,M,Grande Hospital,Asthma,2025-05-14,2025-09-16,4197
+789,Mr. Gregory Lyons,74,M,Bir Hospital,Cancer,2025-06-07,2025-09-07,2602
+790,Lisa Chan,80,F,Bir Hospital,Cancer,2025-06-07,2025-09-27,3037
+791,Jennifer Martin,44,M,KMC Hospital,Cancer,2025-09-08,2025-10-03,3661
+792,Jasmine Cruz,56,F,Norvic Hospital,Hypertension,2025-08-14,2026-02-23,4049
+793,Lisa Wagner,60,F,Grande Hospital,Hypertension,2025-12-29,2026-02-07,2327
+794,Kathleen Morgan,46,F,KMC Hospital,Cancer,2025-11-22,2026-02-24,3514
+795,Alicia Washington,24,M,Norvic Hospital,Asthma,2026-03-07,2026-03-12,2640
+796,Bianca Santiago,71,F,Bir Hospital,Hypertension,2025-07-19,2025-07-28,2176
+797,Trevor Roberts,24,F,Norvic Hospital,Diabetes,2026-01-14,2026-01-24,924
+798,Peter Byrd,27,M,KMC Hospital,Heart Disease,2025-06-21,2025-10-24,4834
+799,Bryan Phillips,38,M,Grande Hospital,Heart Disease,2025-10-09,2025-10-15,4773
+800,John Bray,27,M,Bir Hospital,Asthma,2025-04-05,2025-12-17,4562
+801,Thomas Martinez,27,F,KMC Hospital,Diabetes,2025-11-12,2025-11-17,3346
+802,Michelle Holden,25,M,Bir Hospital,Cancer,2025-09-29,2026-02-18,2674
+803,Samuel Jordan,31,F,Norvic Hospital,Hypertension,2025-12-23,2026-01-14,4353
+804,Mary Black,79,M,KMC Hospital,Hypertension,2026-02-17,2026-02-21,4875
+805,Sandra Beck,31,M,KMC Hospital,Asthma,2025-11-25,2025-11-29,3972
+806,Eddie Booker,77,M,Grande Hospital,Diabetes,2025-09-23,2026-01-23,4333
+807,Katelyn Smith,59,M,Bir Hospital,Asthma,2025-07-10,2025-08-15,4893
+808,Linda Owen,30,F,Grande Hospital,Heart Disease,2026-01-27,2026-03-10,4545
+809,Morgan Wilson,70,F,Norvic Hospital,Diabetes,2026-02-24,2026-02-25,1884
+810,Mary Kelly,31,F,Grande Hospital,Asthma,2026-01-09,2026-03-07,4643
+811,Nathan Melendez,67,F,KMC Hospital,Asthma,2025-09-22,2025-11-06,1876
+812,Lori Martin,66,M,KMC Hospital,Asthma,2025-09-15,2025-09-29,867
+813,April Frazier,32,F,KMC Hospital,Heart Disease,2025-03-14,2025-06-16,1581
+814,Kenneth Patterson,44,M,Bir Hospital,Hypertension,2025-09-02,2025-12-08,1062
+815,Sheila Tran,50,F,Grande Hospital,Diabetes,2025-05-25,2025-12-16,1555
+816,Matthew Thompson,24,F,Bir Hospital,Hypertension,2025-05-01,2025-05-25,4182
+817,Douglas Hayes,36,M,Grande Hospital,Asthma,2025-11-01,2025-11-03,2283
+818,John Chavez,60,F,Bir Hospital,Cancer,2025-08-17,2026-02-19,4387
+819,Brandon Brown,61,F,KMC Hospital,Diabetes,2025-04-27,2026-02-13,3037
+820,Elizabeth Jimenez,54,F,Norvic Hospital,Diabetes,2026-01-05,2026-01-24,4132
+821,Traci Miller,30,F,Bir Hospital,Hypertension,2025-08-09,2025-12-25,3175
+822,Christopher Long,48,F,Grande Hospital,Heart Disease,2026-01-20,2026-01-27,4101
+823,Jennifer Cruz,79,F,KMC Hospital,Heart Disease,2025-06-25,2025-07-09,3414
+824,David Reed,50,M,Norvic Hospital,Diabetes,2025-06-07,2025-12-29,1572
+825,Eric Stephenson,45,M,KMC Hospital,Cancer,2026-01-12,2026-02-18,4111
+826,Chelsea Smith,44,F,Grande Hospital,Heart Disease,2026-01-09,2026-02-24,4463
+827,William Carlson,37,M,Norvic Hospital,Asthma,2025-03-23,2025-06-04,807
+828,Dominic Newman,53,F,Norvic Hospital,Diabetes,2025-09-29,2025-11-29,4245
+829,Maria Long,56,M,Bir Hospital,Cancer,2025-10-15,2026-01-20,1215
+830,Keith Beasley,28,M,Bir Hospital,Diabetes,2025-12-02,2026-02-17,2185
+831,Matthew Pearson,47,M,KMC Hospital,Hypertension,2025-04-13,2025-10-06,2439
+832,Kimberly Warren,68,F,Norvic Hospital,Diabetes,2025-08-05,2025-12-29,2954
+833,Alexandra Middleton,78,F,Bir Hospital,Hypertension,2025-11-22,2025-12-08,3377
+834,Jennifer Logan,25,F,Grande Hospital,Cancer,2026-01-24,2026-02-17,2138
+835,Laura Brown,29,F,Norvic Hospital,Heart Disease,2025-08-14,2025-12-25,1848
+836,Katherine Santiago,29,F,KMC Hospital,Hypertension,2025-07-27,2025-09-10,2400
+837,Shawn Burke,21,M,Norvic Hospital,Cancer,2025-03-13,2025-11-09,2734
+838,Lisa Meyers,78,M,Bir Hospital,Heart Disease,2026-02-01,2026-03-05,4417
+839,Jessica White,80,F,Bir Hospital,Cancer,2025-08-01,2025-08-05,2553
+840,Diana Ferguson,78,M,Norvic Hospital,Cancer,2025-12-03,2026-03-07,3668
+841,Jeffery Murphy,52,M,KMC Hospital,Hypertension,2025-10-09,2025-12-24,3061
+842,Madison Phillips,44,M,Norvic Hospital,Asthma,2025-10-21,2025-11-20,4046
+843,Laura Blair,47,M,Bir Hospital,Diabetes,2025-07-30,2025-08-05,3000
+844,Joshua Johnson,53,F,Norvic Hospital,Diabetes,2025-04-01,2026-02-20,3519
+845,Brandon Yang,69,M,Bir Hospital,Heart Disease,2025-06-15,2026-02-04,2775
+846,Renee Gordon,46,F,Bir Hospital,Heart Disease,2025-10-03,2025-10-29,2789
+847,Corey Solomon,74,M,Bir Hospital,Cancer,2026-02-21,2026-02-23,803
+848,Sara Wallace,40,F,Bir Hospital,Heart Disease,2025-06-22,2026-02-18,4804
+849,Stacy Martinez,68,M,Grande Hospital,Heart Disease,2025-04-17,2026-03-11,3541
+850,Mary Flores,53,F,Norvic Hospital,Asthma,2026-02-09,2026-03-04,783
+851,Jay Williams,59,M,Bir Hospital,Diabetes,2025-08-31,2025-12-09,1927
+852,Christian Franco,33,F,Bir Hospital,Hypertension,2025-07-13,2025-09-28,4132
+853,George Foster,30,F,Grande Hospital,Cancer,2025-09-09,2025-09-24,423
+854,Benjamin Rivera,68,F,Norvic Hospital,Hypertension,2025-11-23,2026-01-03,1172
+855,Tiffany Perez,36,F,KMC Hospital,Cancer,2026-01-27,2026-02-28,3859
+856,Cory Kennedy,27,M,Bir Hospital,Heart Disease,2025-07-19,2025-12-13,1243
+857,Michaela Ramos,45,F,Grande Hospital,Asthma,2025-05-25,2026-02-25,4522
+858,Matthew Cooley,34,F,Norvic Hospital,Asthma,2026-03-10,2026-03-12,4128
+859,Nathan Montes,23,M,Bir Hospital,Diabetes,2025-06-04,2025-06-15,2387
+860,Roger Krueger,60,M,Norvic Hospital,Asthma,2025-09-23,2025-11-25,463
+861,Alexander Reese,49,F,Grande Hospital,Cancer,2025-06-21,2025-08-03,409
+862,Jason Mcneil,77,F,KMC Hospital,Cancer,2025-03-22,2026-03-03,1458
+863,Tina Faulkner,32,F,Norvic Hospital,Diabetes,2025-04-28,2025-11-19,1257
+864,Maxwell Hart,52,M,Bir Hospital,Hypertension,2025-06-27,2025-06-28,2577
+865,Jennifer Diaz,20,M,Bir Hospital,Diabetes,2025-06-04,2025-07-24,2224
+866,Nicole Lewis,32,M,Bir Hospital,Cancer,2025-04-15,2025-08-03,4085
+867,Bobby Green,20,M,Norvic Hospital,Diabetes,2025-12-17,2025-12-20,1814
+868,Hunter Wells,41,F,KMC Hospital,Diabetes,2025-05-25,2025-08-01,1382
+869,Steven Coleman,26,M,Norvic Hospital,Asthma,2025-04-20,2025-09-30,1200
+870,Diana Harris,26,F,Grande Hospital,Cancer,2025-04-08,2025-04-27,4502
+871,Adam Rowe,73,M,KMC Hospital,Asthma,2025-11-27,2025-12-17,2222
+872,Joshua Moore,46,M,Norvic Hospital,Diabetes,2025-09-04,2025-12-24,4008
+873,Brianna Alvarado,42,F,KMC Hospital,Cancer,2025-09-09,2025-10-12,487
+874,Andrew Robinson,44,M,Norvic Hospital,Heart Disease,2025-09-16,2025-11-15,4889
+875,Danielle Rodriguez,21,F,Norvic Hospital,Hypertension,2026-03-07,2026-03-10,3743
+876,Gary Preston,39,F,KMC Hospital,Diabetes,2025-09-30,2025-11-17,4579
+877,Jerome Hamilton,25,M,Norvic Hospital,Cancer,2025-04-28,2026-03-04,2203
+878,Taylor Jackson,38,F,Norvic Hospital,Asthma,2025-09-24,2025-10-03,3258
+879,Bryan Mills,79,F,Grande Hospital,Asthma,2025-03-25,2025-05-29,2855
+880,James Guerrero,30,F,Grande Hospital,Cancer,2025-05-22,2025-05-28,415
+881,Caitlin Brown,49,F,Bir Hospital,Heart Disease,2025-06-06,2025-12-05,2810
+882,Bryan Wilson,78,F,Bir Hospital,Hypertension,2025-10-02,2026-02-12,2013
+883,Rhonda Gutierrez,73,M,Grande Hospital,Hypertension,2025-06-04,2026-01-29,1340
+884,Erica Snyder,43,M,Norvic Hospital,Cancer,2025-06-20,2025-10-30,2203
+885,Cameron Benson,57,F,Norvic Hospital,Cancer,2025-09-29,2025-12-16,3321
+886,Lori Lawrence,71,M,KMC Hospital,Heart Disease,2025-12-30,2026-01-11,804
+887,Mariah Underwood,74,M,Norvic Hospital,Hypertension,2025-09-26,2026-01-07,842
+888,Jordan Smith,64,M,Bir Hospital,Heart Disease,2025-06-30,2025-10-26,3476
+889,Dylan White,54,M,KMC Hospital,Cancer,2025-06-27,2025-07-02,2650
+890,Kathy Miller,65,M,Norvic Hospital,Cancer,2025-05-04,2025-06-24,2700
+891,Dr. Jennifer Mahoney,80,M,Bir Hospital,Cancer,2025-03-31,2025-09-20,2128
+892,Brent Schmidt,22,F,Grande Hospital,Asthma,2025-10-17,2026-01-02,3076
+893,Olivia Sweeney,45,F,Bir Hospital,Asthma,2025-11-02,2026-02-21,2927
+894,Jacob Smith,62,M,Norvic Hospital,Cancer,2025-05-19,2025-09-01,1819
+895,Ashley Chen,52,M,KMC Hospital,Hypertension,2025-05-10,2026-02-17,4357
+896,Aaron Mills,79,F,Grande Hospital,Diabetes,2025-08-27,2026-01-20,2014
+897,Tiffany Riley,71,F,Bir Hospital,Heart Disease,2025-11-02,2025-11-03,2922
+898,Kristie Gill,78,M,Norvic Hospital,Cancer,2025-05-18,2026-01-27,2679
+899,Anna Williams,72,F,Norvic Hospital,Diabetes,2025-08-08,2025-10-08,834
+900,Cynthia Bass,37,M,Grande Hospital,Cancer,2026-02-02,2026-03-07,3793
+901,Susan Hall,76,F,Bir Hospital,Cancer,2025-08-20,2026-02-02,1014
+902,Belinda Powers,26,F,KMC Hospital,Cancer,2026-01-04,2026-02-04,2116
+903,Charles Clark,35,F,Bir Hospital,Asthma,2025-11-03,2025-12-03,2126
+904,Ryan Smith,51,M,Norvic Hospital,Asthma,2025-08-22,2025-08-26,2459
+905,Emily Pugh,27,F,Norvic Hospital,Cancer,2025-11-17,2026-03-03,623
+906,Stefanie Martinez,43,F,Norvic Hospital,Hypertension,2025-12-14,2025-12-19,2297
+907,Laura Baldwin,61,F,Bir Hospital,Cancer,2025-10-17,2025-12-01,263
+908,Chelsey Parker,77,M,Norvic Hospital,Diabetes,2025-12-31,2026-01-31,2329
+909,Travis Best,35,F,Grande Hospital,Diabetes,2025-12-04,2026-02-04,673
+910,Scott Hernandez,52,M,KMC Hospital,Diabetes,2025-09-26,2025-10-18,613
+911,James Reid,61,F,Grande Hospital,Hypertension,2025-07-01,2026-02-18,3252
+912,Rachel Sanchez,35,F,Bir Hospital,Hypertension,2025-10-01,2026-01-25,1400
+913,Rhonda Clay,29,M,Grande Hospital,Asthma,2026-02-10,2026-03-06,1644
+914,Mr. Andrew Garcia,73,M,Bir Hospital,Asthma,2025-04-16,2025-08-18,1889
+915,Michael Zuniga,65,M,KMC Hospital,Asthma,2025-06-15,2025-12-23,4711
+916,Teresa Carter,43,F,Norvic Hospital,Asthma,2025-09-07,2026-01-20,3576
+917,Carolyn Bush,30,M,KMC Hospital,Hypertension,2025-08-09,2025-11-29,4794
+918,Joseph Lewis,64,F,Norvic Hospital,Asthma,2025-06-20,2025-12-09,4602
+919,Timothy Johnson,27,F,Grande Hospital,Heart Disease,2025-07-27,2025-08-01,1543
+920,Brooke Logan,57,F,KMC Hospital,Heart Disease,2026-01-04,2026-01-25,1712
+921,Sheila Roy,65,M,Bir Hospital,Diabetes,2025-04-19,2025-09-29,4121
+922,Daniel Davis,54,F,Grande Hospital,Hypertension,2025-05-08,2025-07-21,897
+923,Nicholas Wilson,49,M,Bir Hospital,Hypertension,2025-11-07,2025-12-23,999
+924,David Lam,55,F,Bir Hospital,Diabetes,2026-01-12,2026-01-29,3780
+925,Kristie Ho,21,M,Bir Hospital,Hypertension,2025-04-25,2025-10-11,4230
+926,Allison Thompson,40,F,KMC Hospital,Hypertension,2025-12-08,2026-01-17,2570
+927,Alicia Cline,39,F,Bir Hospital,Cancer,2025-07-24,2025-07-26,3282
+928,David Hamilton,69,M,Norvic Hospital,Cancer,2025-10-02,2026-02-24,410
+929,Kevin Stephens,67,F,Bir Hospital,Cancer,2025-05-02,2026-02-07,2969
+930,Robert Romero,33,M,Bir Hospital,Heart Disease,2025-03-25,2025-04-08,249
+931,Terry Ramirez,54,M,Norvic Hospital,Diabetes,2025-08-28,2025-11-23,1092
+932,Amanda Zamora,51,F,KMC Hospital,Diabetes,2026-01-16,2026-02-10,2811
+933,Alexandra Jenkins,60,F,Grande Hospital,Asthma,2025-11-10,2025-11-28,2433
+934,Cole Cox,80,M,Grande Hospital,Asthma,2025-10-25,2025-12-19,4916
+935,Diane Shields,22,M,Norvic Hospital,Asthma,2025-07-07,2026-03-09,4735
+936,Angelica Smith,48,M,KMC Hospital,Cancer,2025-05-17,2026-01-29,3096
+937,Tony Anderson,22,M,Grande Hospital,Cancer,2025-11-11,2026-02-27,2833
+938,John Ayala,34,M,Bir Hospital,Hypertension,2025-11-07,2026-01-08,2027
+939,Casey Jones,70,M,Bir Hospital,Heart Disease,2025-09-20,2026-02-09,3416
+940,Corey Carter,39,M,KMC Hospital,Hypertension,2025-07-24,2025-09-02,3161
+941,Dylan Raymond,69,F,Norvic Hospital,Heart Disease,2025-10-19,2025-12-16,892
+942,Katherine Dawson,23,F,Grande Hospital,Diabetes,2026-01-13,2026-03-05,932
+943,Amy Welch,79,M,KMC Hospital,Asthma,2025-09-14,2025-10-23,2256
+944,Sherri Jones,28,M,Grande Hospital,Asthma,2025-04-16,2025-05-15,1135
+945,Lisa Cortez,30,F,KMC Hospital,Heart Disease,2025-10-14,2025-11-25,907
+946,Megan Walker,76,M,KMC Hospital,Asthma,2025-05-06,2025-09-22,640
+947,Ana Martin,78,F,KMC Hospital,Hypertension,2025-05-22,2026-02-05,2934
+948,Maria Wells,59,F,Bir Hospital,Asthma,2025-03-17,2025-10-05,2170
+949,Kyle Miles,68,M,Grande Hospital,Cancer,2025-07-15,2025-08-16,4889
+950,Elijah Powers,36,F,Bir Hospital,Heart Disease,2025-03-31,2026-02-16,3962
+951,Kimberly Noble,22,F,Bir Hospital,Heart Disease,2025-11-18,2026-01-14,2564
+952,David Hill MD,52,M,KMC Hospital,Heart Disease,2025-12-06,2025-12-06,4331
+953,Jennifer Burton,45,M,Bir Hospital,Diabetes,2026-02-11,2026-02-28,1878
+954,Jennifer Gonzales,26,F,Bir Hospital,Cancer,2025-06-26,2026-01-10,1143
+955,Kimberly May,48,M,Bir Hospital,Asthma,2025-10-14,2026-02-18,790
+956,William Baker,72,F,Norvic Hospital,Heart Disease,2025-08-01,2025-10-20,1514
+957,Ashley Hunt,71,F,Bir Hospital,Hypertension,2026-02-23,2026-03-04,2488
+958,Erin Hall,39,F,Grande Hospital,Hypertension,2025-09-04,2025-10-29,4723
+959,Vanessa Weber,46,M,Grande Hospital,Heart Disease,2025-04-10,2025-04-24,4940
+960,Ms. Lisa Campbell,78,F,Grande Hospital,Cancer,2025-11-03,2026-01-23,203
+961,Andrew Weaver,45,F,KMC Hospital,Heart Disease,2026-02-19,2026-03-11,1783
+962,Robert Mccarty,78,F,Norvic Hospital,Diabetes,2026-02-28,2026-03-09,3492
+963,Emily White,80,M,Grande Hospital,Diabetes,2026-01-24,2026-01-24,2399
+964,Mr. Andrew Dorsey,24,M,Grande Hospital,Cancer,2025-06-23,2025-07-22,1666
+965,Ashley Brown,63,M,Grande Hospital,Heart Disease,2025-07-16,2026-03-09,673
+966,Jacob Schmidt,55,M,Norvic Hospital,Cancer,2026-02-12,2026-03-05,2016
+967,Emily Sheppard,71,M,KMC Hospital,Heart Disease,2025-11-09,2026-02-09,2575
+968,Mrs. Lauren Trujillo,31,M,Grande Hospital,Heart Disease,2025-08-11,2025-08-27,414
+969,Manuel Allen,76,M,Bir Hospital,Cancer,2025-05-14,2025-08-05,4471
+970,Jennifer Nguyen,74,M,Bir Hospital,Diabetes,2026-03-04,2026-03-04,3320
+971,Mary Flynn,32,M,Grande Hospital,Diabetes,2025-06-03,2026-01-27,3078
+972,Jeffrey Young II,40,F,Bir Hospital,Diabetes,2025-11-12,2026-01-14,2370
+973,Randy Nichols,67,M,Norvic Hospital,Heart Disease,2025-10-30,2025-11-11,3318
+974,Jamie Werner,20,M,Bir Hospital,Heart Disease,2025-11-01,2025-11-26,4530
+975,Carol Hughes,71,M,Bir Hospital,Hypertension,2026-02-06,2026-02-09,2652
+976,Andrew Fischer,29,M,Bir Hospital,Asthma,2025-07-23,2025-11-24,4650
+977,Charles Allen,71,M,Bir Hospital,Diabetes,2025-05-17,2025-11-28,3464
+978,Mary Rodgers,67,F,Bir Hospital,Asthma,2025-07-06,2025-08-29,2293
+979,Lorraine Patterson,34,M,Norvic Hospital,Hypertension,2025-09-03,2025-12-11,3066
+980,Tim Chapman,20,F,Grande Hospital,Diabetes,2025-06-30,2025-07-17,4879
+981,Lisa Morrison,73,F,KMC Hospital,Cancer,2026-01-05,2026-03-03,2422
+982,Rebecca Cruz,65,M,Grande Hospital,Cancer,2025-03-16,2025-11-29,3361
+983,Michelle Simpson,50,F,Grande Hospital,Asthma,2026-03-07,2026-03-12,4831
+984,Erin Chavez,39,M,KMC Hospital,Asthma,2025-06-30,2025-10-28,2053
+985,Jeremy Wilson,75,F,Grande Hospital,Hypertension,2025-07-21,2026-02-17,693
+986,Victor Ramos,74,F,Grande Hospital,Hypertension,2025-07-18,2025-09-16,1522
+987,Lori Harrington,75,M,Bir Hospital,Heart Disease,2025-05-14,2025-09-28,4570
+988,Danielle Smith,39,F,Bir Hospital,Cancer,2025-05-31,2025-10-14,4706
+989,Elizabeth Bennett,36,F,KMC Hospital,Asthma,2025-07-07,2025-11-29,2583
+990,Ian Ward,57,F,Bir Hospital,Asthma,2026-02-04,2026-03-10,486
+991,Sabrina Watkins,78,M,Bir Hospital,Heart Disease,2025-09-03,2025-10-10,776
+992,Christopher Taylor,62,F,KMC Hospital,Asthma,2025-04-07,2025-05-29,2150
+993,Laura Burch,70,F,Bir Hospital,Heart Disease,2025-12-17,2026-01-21,3705
+994,Mary Young,41,F,Grande Hospital,Diabetes,2026-01-15,2026-02-03,4451
+995,Karen Chan,69,M,Bir Hospital,Asthma,2025-10-17,2026-01-12,1047
+996,Robert Herrera,43,F,Bir Hospital,Cancer,2026-01-08,2026-02-22,1465
+997,William Martinez,72,M,Grande Hospital,Heart Disease,2025-05-12,2025-05-24,500
+998,Kelly Daniels,61,F,KMC Hospital,Cancer,2026-01-14,2026-02-25,2061
+999,Nicolas Coleman,57,F,Norvic Hospital,Heart Disease,2025-10-01,2025-11-22,2984
+1000,Joshua Kennedy,36,M,Grande Hospital,Asthma,2025-07-14,2025-08-28,2027

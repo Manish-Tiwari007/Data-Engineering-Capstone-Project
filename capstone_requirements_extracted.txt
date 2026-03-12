@@ -1,0 +1,232 @@
+--- PAGE 1 ---
+Capstone  Project:  Data  Engineering  Project  Specification  &  Requirements   
+ 1.  Project  Overview  Each  student  is  required  to  design,  develop,  and  deploy  a  unique  End-to-End  ETL  Pipeline  
+following
+ 
+the
+ 
+Medallion
+ 
+Architecture
+.
+ 
+You
+ 
+will
+ 
+select
+ 
+a
+ 
+unique
+ 
+business
+ 
+domain
+ 
+(e.g.,
+ 
+E-commerce,
+ 
+Fintech,
+ 
+Healthcare,
+ 
+Logistics)
+ 
+and
+ 
+build
+ 
+a
+ 
+robust
+ 
+data
+ 
+architecture
+ 
+using
+ 
+Apache
+ 
+Airflow
+ 
+and
+ 
+Snowflake
+.
+ 
+Your  system  must  be  automated,  idempotent,  self-healing,  and  provide   reporting  and  analytics.  
+ 
+2.  Technical  Architecture  &  Standards  A.  Snowflake  Environment  &  Layering  You  must  implement  a  three-layer  Medallion  Architecture  within  Snowflake  to  ensure  data  
+integrity
+ 
+and
+ 
+traceability.
+ 
+●  Bronze  (RAW):  Ingest  raw,  immutable  dummy  data.  Use  a  landing  zone  approach.  ●  Silver  (STAGING):  Perform  cleaning,  schema  enforcement,  casting,  and  deduplication.  ●  Gold  (PROD):  Final  Star  Schema  (Facts  and  Dimensions)  optimized  for  analytics.  ●  Naming  Convention:  Database  must  be  named  MBUST_{{student_roll}}.  
+B.  Data  Modeling  &  SCD  Type  2  ●  Dimensional  Modeling:  Your  Gold  layer  must  consist  of  at  least  one  Fact  table  and  
+three
+ 
+Dimension
+ 
+tables
+.
+ ●  Historical  Tracking:  Implement  Slowly  Changing  Dimensions  (SCD  Type  2)  for  at  
+least
+ 
+one
+ 
+core
+ 
+dimension
+ 
+to
+ 
+track
+ 
+historical
+ 
+changes
+ 
+over
+ 
+time.
+ ●  Calendar:  Use  an  existing  Date/Calendar  dimension  from  the  Snowflake  Marketplace  
+(building
+ 
+your
+ 
+own
+ 
+is
+ 
+optional).
+ 
+C.  Orchestration  &  Engineering  (Airflow)  ●  Modular  DAGs:  Break  down  your  pipeline  into  logical,  decoupled  tasks  (Extract  →  Load  
+→
+ 
+Stage
+ 
+→
+ 
+Transform).
+ ●  Idempotency:  The  pipeline  must  be  re-runnable  for  the  same  period  without  creating  
+duplicate
+ 
+records
+ 
+or
+ 
+corrupting
+ 
+the
+ 
+Star
+ 
+Schema.
+ ●  XComs  &  Hooks:  Use  standard  Airflow  Providers  and  manage  credentials  via  Airflow  
+Connections
+ 
+(no
+ 
+hardcoded
+ 
+secrets).
+ 
+ 
+3.  Development  Standards  (Mandatory)   
+
+--- PAGE 2 ---
+Code  Quality  &  Linting  Treat  this  repository  as  a  production  codebase.  All  Python  code  must  be  strictly  PEP8  
+compliant
+.
+ 
+●  Pre-commit  Hooks:  Your  repo  must  contain  a  .pre-commit-config.yaml file.  ●  Automation:  You  must  use  black (formatting),  flake8 (linting),  and  check-yaml to  pass  
+all
+ 
+checks
+ 
+before
+ 
+committing.
+ ●  Docstring:  Use  the  Google  or  NumPy  docstring  format.  
+Observability  &  Reporting  ●  Failure  Alerts:  Configure  the  Airflow  DAG  to  send  an  Email  Alert  immediately  upon  any  
+task
+ 
+failure.
+ ●  Success  Reporting:  On  a  successful  run,  generate  a  Daily  Summary  Report  (e.g.,  total  
+rows
+ 
+processed,
+ 
+key
+ 
+business
+ 
+metric)
+ 
+delivered
+ 
+to
+ 
+the
+ 
+stakeholder
+ 
+via
+ 
+Snowflake
+ 
+Alert.
+ 
+ 
+ 4.  Analytics  &  Documentation  ●  Snowsight  Dashboard:  Create  a  professional  dashboard  in  Snowflake  using  your  Gold  
+layer
+ 
+data
+ 
+to
+ 
+visualize
+ 
+KPIs.
+ ●  README.md  Requirements:  ○  System  Architecture  Diagram:  High-level  flow  from  Airflow  to  Snowflake.  ○  ER  Diagram:  Visual  representation  of  your  Star  Schema.  ○  Data  Dictionary:  Definitions  for  your  Fact  and  Dimension  columns.  ○  Setup  Guide:  Step-by-step  instructions  to  reproduce  the  environment.  
+ 
+ 5.  Submission  &  Evaluation  Criteria  
+Criteria  Expectation  
+SCD  Type  2  Correct  handling  of  historical  records  and  valid/expired  timestamps.  
+Medallion  Integrity  Clear  separation  of  Bronze,  Silver,  and  Gold  layers.  
+Code  Quality  PEP8  compliance  and  functional  pre-commit  hooks.  
+
+--- PAGE 3 ---
+Orchestration  Idempotent  DAGs,  proper  use  of  Hooks,  and  secret  management.  
+Observability  Working  Email  alerts  and  success  summary  reports.  
+Data  Sharing  Successful  Snowflake  secure  share  with  the  instructor  account.  
+Note:  Each  student  must  submit  their  Unique  Theme .  No  two  students  may  use  
+the
+ 
+same
+ 
+business
+ 
+logic
+ 
+and
+ 
+same
+ 
+code.
+ 
+ 
+Final  Grading  &  Evaluation  Schema  
+  Assessment  Component  
+Weight  Description  
+Capstone  Project  
+35%  Implementation  of  the  End-to-End  ETL  Pipeline  (Medallion  Architecture,  SCD  Type  2,  Airflow  Orchestration,  and  Snowflake  Dashboard).  
+Viva  Voce  15%  Oral  examination  covering  your  project  logic,  technical  choices,  and  core  Data  Engineering  concepts  discussed  in  sessions.  
+Written  Exam  50%  Final  comprehensive  exam  
+Total  100%   
+ 
