@@ -1,7 +1,10 @@
-# Healthcare Medallion Capstone (Airflow + Snowflake)
-
+# Healthcare Medallion Capstone (Airflow + Snowflake + Docker)
 End-to-end ETL pipeline for Healthcare analytics following Bronze -> Silver -> Gold Medallion architecture with idempotent orchestration, SCD Type 2, daily summary reporting, and analytics-ready star schema.
 
+## Author
+- Name: Manish Kumar Tiwari
+- Roll. No: MDS_25_03
+  
 ## 1. System Architecture Diagram
 
 ```mermaid
@@ -250,7 +253,17 @@ pre-commit run --all-files
 - SCD2 implemented for one core dimension.
 - DAG idempotent and rerunnable by date.
 - No hardcoded secrets (Airflow Connection based).
+
 - Failure email alerts configured.
 - Daily summary generated and Snowflake Alert configured.
 - Snowsight dashboard created.
 - Secure share created for instructor account.
+
+## 12. Screenshot
+-Apache Airflow
+<img width="1917" height="871" alt="ApacheAirflowSuccess" src="https://github.com/user-attachments/assets/342a9505-ae44-45a5-99ef-260eec4d43ff" />
+- Snowflakes
+<img width="1918" height="870" alt="SnowDash" src="https://github.com/user-attachments/assets/d56ff5af-47da-4c49-bf2c-00df9808c807" />
+<img width="1917" height="838" alt="Snowflake1" src="https://github.com/user-attachments/assets/bfc92858-3341-4dbd-b920-183269156c16" />
+<img width="1919" height="876" alt="SnowflakeDashboard" src="https://github.com/user-attachments/assets/853d8125-8dbc-4104-a25a-446dc704e139" />
+<img width="1917" height="888" alt="SnowFlakeDashBoard2" src="https://github.com/user-attachments/assets/8eab7574-7419-4787-a301-e8a879134eab" />
